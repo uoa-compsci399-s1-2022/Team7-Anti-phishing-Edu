@@ -1,0 +1,19 @@
+{
+    "emailContainer" : [
+        {
+            "senderName" : "SenderNameTest1", 
+            "senderEmailAddress" : "senderEmailAddress1@Text.com",
+
+            "emailTitle" : "TitleTest1",
+            "emailContent" : "Content Test: Hello World!1"
+        },
+
+        {
+            "senderName" : "SenderNameTest2",
+            "senderEmailAddress" : "senderEmailAddress2@Text.com",
+
+            "emailTitle" : "TitleTest2",
+            "emailContent" : "Content Test: Hello World!2"
+        }
+    ]
+}
