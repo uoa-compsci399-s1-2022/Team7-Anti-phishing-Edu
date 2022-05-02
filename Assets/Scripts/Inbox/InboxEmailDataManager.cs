@@ -19,6 +19,7 @@ public class InboxEmailDataManager : EmailDataReader
         {
             GameObject singleEmail = Instantiate(Resources.Load("GameObjects(Prefabs)/Email Inbox Item") as GameObject, inboxEmailContainer.transform);
             singleEmail.GetComponent<InboxEmailItem>().emailData = inboxEmailList[index];
+            singleEmail.GetComponent<InboxEmailItem>().detailSceneName = inboxEmailList[index].relatedSceneName;
         }
     }
 

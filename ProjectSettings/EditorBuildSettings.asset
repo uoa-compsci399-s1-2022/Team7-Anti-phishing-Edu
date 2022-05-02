@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Official Scenes/Email_Scene.unity
     guid: e12472b4ad68ddd44a5c8aeb4ccfd8a7
+  - enabled: 1
+    path: Assets/Scenes/Official Scenes/Email Scenes/Email_Scene 1.unity
+    guid: 97a00eec8af3c53498c2e236a351fcb5
   m_configObjects: {}

@@ -6,9 +6,13 @@ using UnityEngine.EventSystems;
 
 public class UIController : MonoBehaviour
 {
+    public Animator backgroundAnimator;
+    public float transitonTime;
+
     public void EnterInboxLevel(int sceneIndex)
     {
-        SceneManager.LoadScene(sceneIndex);
+        backgroundAnimator.SetTrigger("BackgroundDisappear");
+        StartCoroutine(ChangeScene(sceneIndex));
     }
 
 
@@ -16,4 +20,11 @@ public class UIController : MonoBehaviour
     {
         SceneManager.LoadScene(0);
     }
+
+    IEnumerator ChangeScene(int sceneIndex)
+    {
+        yield return new WaitForSeconds(transitonTime);
+        SceneManager.LoadScene(sceneIndex);
+    }
+
 }

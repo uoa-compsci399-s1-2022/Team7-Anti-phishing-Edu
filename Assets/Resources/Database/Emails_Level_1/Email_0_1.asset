@@ -19,6 +19,7 @@ MonoBehaviour:
   senderName: Dev #2
   senderEmailAddress: 
   senderTime: 04/05/2022
+  relatedSceneName: Email_Scene 1
   emailTitle: Title #2
   emailContent: Content #2 Content #2 Content #2 Content #2 Content #2 Content #2
     Content #2

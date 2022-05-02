@@ -12,11 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 831b9e2a96406a04dbe73219cede5852, type: 3}
   m_Name: Email_0_0
   m_EditorClassIdentifier: 
+  itemIndex: 0
   senderIcon: {fileID: 21300000, guid: 5d73dac619966e34ea67ab801fb15c3d, type: 3}
   EmailIconNotRead: {fileID: 21300000, guid: 11356c901b476ca4bb47b67e61507c67, type: 3}
   EmailIconRead: {fileID: 21300000, guid: ad5f1ebd712fb2a478bed59d1fc682ed, type: 3}
   senderName: Dev #1
+  senderEmailAddress: 
   senderTime: 04/04/2022 18:04
+  relatedSceneName: Email_Scene 1
   emailTitle: Hello World! #1
   emailContent: Hello World!Hello World!Hello World!Hello World!Hello World!Hello
     World!Hello World!
+  emailType: 0

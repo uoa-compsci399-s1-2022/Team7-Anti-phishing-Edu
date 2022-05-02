@@ -18,7 +18,7 @@ public class InboxEmailItem : MonoBehaviour, IPointerEnterHandler, IPointerClick
     [SerializeField]
     public EmailScriptableObject emailData;
     public GameManager gameManager;
-    public static string detailSceneName = "Email_Scene";
+    public string detailSceneName;
 
     private void Start()
     {
