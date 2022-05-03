@@ -10,13 +10,24 @@ public class DialogueScentenceData
     public string characterName = "CHARACTER NAME";
     [TextArea(4,10)]public string sentenceContent = "SENTENCE CONTENT";
 
+    public SentenceActionType actionType;
+
     public bool hasChoices;
-    public List<DialogueChoice> choiceContent;
+    public List<DialogueChoiceData> choiceContent;
 
     public IEnumerator GetEnumerator()
     {
         throw new System.NotImplementedException();
     }
+}
+
+public enum SentenceActionType
+{
+    None,
+    Shake,
+    EnterTutorialScene,
+    Transmission,
+    EnterNextScene,
 }
 
 

@@ -6,12 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Official Scenes/Level 1/Dialogue 1.unity
+    guid: 521cebc391844f54fbc728d96bd729fd
+  - enabled: 0
     path: Assets/Scenes/Official Scenes/Email_Inbox.unity
     guid: c7341142e92c4bc439025c2a1bc79708
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Official Scenes/Email_Scene.unity
     guid: e12472b4ad68ddd44a5c8aeb4ccfd8a7
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Official Scenes/Email Scenes/Email_Scene 1.unity
     guid: 97a00eec8af3c53498c2e236a351fcb5
   m_configObjects: {}

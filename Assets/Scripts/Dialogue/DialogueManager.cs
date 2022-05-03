@@ -6,21 +6,31 @@ using UnityEngine.UI;
 public class DialogueManager : MonoBehaviour
 {
     public Queue<DialogueScentenceData> dialogueScentences = new Queue<DialogueScentenceData>();
+    private Queue<DialogueScentenceData> dialogueChoiceSentences = new Queue<DialogueScentenceData>();
 
     //UI Part
     [Header("UI Part")]
     public Text dialogueContent;
     public Text characterName;
+    public Image characterProtroit;
     public GameObject nextSentenceIcon;
     public GameObject choicePanel;
+    public GameObject transmissionPanel;
+    public Image background;
+    public Text choiceText_1;
+    public Text choiceText_2;
+    public Text choiceText_3;
 
+    [Header("DATA Part")]
     public float sentenceDisplaySpeed = 0.02f;
+    public Sprite office;
 
     public Animator dialogueBoxAnimator;
 
     private bool isDisplaying = false;
     private string contentCache = "";
-   
+    private DialogueScentenceData currentSentence;
+
 
     void Start()
     {
@@ -37,9 +47,8 @@ public class DialogueManager : MonoBehaviour
         
         foreach(DialogueScentenceData sentence in dialogue.sentences)
         {
-            dialogueContent.text = sentence.sentenceContent;
-            characterName.text = sentence.characterName;
-            contentCache = sentence.sentenceContent;           
+            currentSentence = sentence;
+            UpdateUI(sentence);           
             dialogueScentences.Enqueue(sentence);
         }
 
@@ -48,7 +57,11 @@ public class DialogueManager : MonoBehaviour
 
     public void ButtonPressed()
     {
-        if(isDisplaying == false)
+        if(dialogueChoiceSentences.Count != 0)
+        {
+            DisplayNextChoiceDialogue(dialogueChoiceSentences);
+        }
+        else if(isDisplaying == false)
         {
             DisplayNextSentence();
         }
@@ -77,20 +90,36 @@ public class DialogueManager : MonoBehaviour
         if (isDisplaying == false)
         {
             DialogueScentenceData sentence = dialogueScentences.Dequeue();
+            currentSentence = sentence;
+
             nextSentenceIcon.SetActive(false);
 
             if (sentence.hasChoices == false)
             {
+                // Deactive choice Panel
                 choicePanel.SetActive(false);
-                characterName.text = sentence.characterName;
+
+                // Update the UI
+                UpdateUI(sentence);
+
+                // Handle UI action
+                DialogueActionHandler(sentence.actionType);
+
+                // Save the cache data
                 contentCache = sentence.sentenceContent;
+
+                // Display text one by one character
                 StopAllCoroutines();
                 isDisplaying = true;
                 StartCoroutine(TypeSentence(sentence.sentenceContent));
             }
             else
             {
+                //Active choice Panel
                 choicePanel.SetActive(true);
+                choiceText_1.text = sentence.choiceContent[0].choiceContent;
+                choiceText_2.text = sentence.choiceContent[1].choiceContent; 
+                choiceText_3.text = sentence.choiceContent[2].choiceContent; 
             }
         }
     }
@@ -98,10 +127,20 @@ public class DialogueManager : MonoBehaviour
     /// <summary>
     /// Handle option button events.
     /// </summary>
-    public void OptionButtonPressed()
+    public void OptionButtonPressed(int choiceID)
     {
         choicePanel.SetActive(false);
-        DisplayNextSentence();
+
+        // Get the corresponding choice data
+        DialogueChoiceData choiceData = currentSentence.choiceContent[choiceID];
+
+        if (choiceData.dialogueChoiceSentences.Count != 0)
+        {
+            foreach (DialogueScentenceData sentence in choiceData.dialogueChoiceSentences)
+            {
+                dialogueChoiceSentences.Enqueue(sentence);
+            }
+        }
     }
 
     IEnumerator TypeSentence(string sentence)
@@ -118,11 +157,58 @@ public class DialogueManager : MonoBehaviour
         nextSentenceIcon.SetActive(true);
     }
 
+    private void DisplayNextChoiceDialogue(Queue<DialogueScentenceData> choiceDialogue)
+    {
+        // Have displayed all sentences under choice...
+        if (choiceDialogue.Count == 0)
+        {
+            DisplayNextSentence();
+        }
+        else
+        {
+            choicePanel.SetActive(false);
+            DialogueScentenceData sentence = choiceDialogue.Dequeue();
+            UpdateUI(sentence);
+            contentCache = sentence.sentenceContent;
+            StopAllCoroutines();
+            isDisplaying = true;
+            StartCoroutine(TypeSentence(sentence.sentenceContent));
+            
+        }
+        
+    }
+
     public void EndDialogue()
     {
         dialogueBoxAnimator.SetTrigger("DialogueEnd");
         Debug.Log("Dialogue Finished!");
     }
     
+    public void UpdateUI(DialogueScentenceData sentence)
+    {
+        dialogueContent.text = sentence.sentenceContent;
+        characterName.text = sentence.characterName;
+        characterProtroit.sprite = sentence.characterPortrait;
+        contentCache = sentence.sentenceContent;
+    }
+
+    private void DialogueActionHandler(SentenceActionType actionType)
+    {
+        switch (actionType)
+        {
+            case SentenceActionType.Shake:
+                break;
+
+            case SentenceActionType.Transmission:
+                transmissionPanel.SetActive(true);
+                background.sprite = office;
+                background.SetNativeSize();
+                break;
+
+            case SentenceActionType.EnterTutorialScene:
+                break;
+        }
+    }
+
 
 }
