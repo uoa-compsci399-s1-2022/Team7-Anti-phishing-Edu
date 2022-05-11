@@ -16,11 +16,39 @@ MonoBehaviour:
   senderIcon: {fileID: 21300000, guid: 5d73dac619966e34ea67ab801fb15c3d, type: 3}
   EmailIconNotRead: {fileID: 21300000, guid: 11356c901b476ca4bb47b67e61507c67, type: 3}
   EmailIconRead: {fileID: 21300000, guid: ad5f1ebd712fb2a478bed59d1fc682ed, type: 3}
-  senderName: Dev #2
-  senderEmailAddress: 
+  senderName: Contact Energy
+  senderEmailAddress: service@contact.co.nz
   senderTime: 04/05/2022
-  relatedSceneName: Email_Scene 1
-  emailTitle: Title #2
-  emailContent: Content #2 Content #2 Content #2 Content #2 Content #2 Content #2
-    Content #2
-  emailType: 0
+  relatedSceneName: Email_Scene 12
+  emailTitle: <b>Customer enquiry</b>
+  emailContent: 'Hi Fink,
+
+    Thank you for contacting Contact Energy.
+
+    To guarantee
+    your satisfaction with Contact Energy. you are selected to receive a small gift
+    from us, all you have to do is to answer six questions about your experience
+    with our company.
+
+    We currently have cinema tickets, gift vouchers for Countdown,
+    a couple of smartphones and other gifts in stock, but hurry up, our inventory
+    is going out fast, and obviously, some gifts are more popular than others.
+
+
+
+    <a
+    herf>I want to select a gift.</a>
+
+
+
+    Have a nice day.
+
+
+
+    Vicky Hannson
+
+    Customer
+    Analyst
+
+'
+  emailType: 1

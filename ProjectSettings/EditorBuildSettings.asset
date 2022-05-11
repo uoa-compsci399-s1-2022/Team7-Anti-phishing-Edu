@@ -8,13 +8,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Official Scenes/Level 1/Dialogue 1.unity
     guid: 521cebc391844f54fbc728d96bd729fd
-  - enabled: 0
-    path: Assets/Scenes/Official Scenes/Email_Inbox.unity
-    guid: c7341142e92c4bc439025c2a1bc79708
-  - enabled: 0
-    path: Assets/Scenes/Official Scenes/Email_Scene.unity
-    guid: e12472b4ad68ddd44a5c8aeb4ccfd8a7
-  - enabled: 0
-    path: Assets/Scenes/Official Scenes/Email Scenes/Email_Scene 1.unity
-    guid: 97a00eec8af3c53498c2e236a351fcb5
+  - enabled: 1
+    path: Assets/Scenes/Official Scenes/Level 1/Email_Main 1.unity
+    guid: ab3624b172c4aaa4e8a54585eb408a38
+  - enabled: 1
+    path: Assets/Scenes/Official Scenes/Level 1/Email_Inbox 1.unity
+    guid: 2e1abdaf62b8d51438ad4d211befd8d1
+  - enabled: 1
+    path: Assets/Scenes/Official Scenes/Level 1/Email_Scene 11.unity
+    guid: 4a335dcaa6050514098b497e76ebc4ca
+  - enabled: 1
+    path: Assets/Scenes/Official Scenes/Level 1/Email_Scene 12.unity
+    guid: 845d0e52878342e429cd02f930bb7a8c
+  - enabled: 1
+    path: Assets/Scenes/Official Scenes/Level 1/Email_Scene 13.unity
+    guid: 4385e0b68fedaa74f9b2743c0a2e106e
   m_configObjects: {}

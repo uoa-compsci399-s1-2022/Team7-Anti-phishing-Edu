@@ -11,6 +11,7 @@ public class DialogueScentenceData
     [TextArea(4,10)]public string sentenceContent = "SENTENCE CONTENT";
 
     public SentenceActionType actionType;
+    public string sceneName = "";
 
     public bool hasChoices;
     public List<DialogueChoiceData> choiceContent;

@@ -16,11 +16,16 @@ MonoBehaviour:
   senderIcon: {fileID: 21300000, guid: 5d73dac619966e34ea67ab801fb15c3d, type: 3}
   EmailIconNotRead: {fileID: 21300000, guid: 11356c901b476ca4bb47b67e61507c67, type: 3}
   EmailIconRead: {fileID: 21300000, guid: ad5f1ebd712fb2a478bed59d1fc682ed, type: 3}
-  senderName: Dev #3
-  senderEmailAddress: 
+  senderName: Bank
+  senderEmailAddress: payment@epayment00.com
   senderTime: 04/05/2022
-  relatedSceneName: Email_Scene 1
-  emailTitle: Title #3
-  emailContent: ' Content #3 Content #3 Content #3 Content #3 Content #3 Content
-    #3 Content #3 Content #3'
-  emailType: 0
+  relatedSceneName: Email_Scene 13
+  emailTitle: '<b>RE: new payment</b>'
+  emailContent: 'Please find attached bank slip for new payment on your account.
+
+
+    Regards,
+
+    Account
+    Department'
+  emailType: 1

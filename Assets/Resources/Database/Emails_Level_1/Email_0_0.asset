@@ -16,11 +16,13 @@ MonoBehaviour:
   senderIcon: {fileID: 21300000, guid: 5d73dac619966e34ea67ab801fb15c3d, type: 3}
   EmailIconNotRead: {fileID: 21300000, guid: 11356c901b476ca4bb47b67e61507c67, type: 3}
   EmailIconRead: {fileID: 21300000, guid: ad5f1ebd712fb2a478bed59d1fc682ed, type: 3}
-  senderName: Dev #1
-  senderEmailAddress: 
+  senderName: ANZ service team
+  senderEmailAddress: service@anz.co.nz
   senderTime: 04/04/2022 18:04
-  relatedSceneName: Email_Scene 1
-  emailTitle: Hello World! #1
-  emailContent: Hello World!Hello World!Hello World!Hello World!Hello World!Hello
-    World!Hello World!
-  emailType: 0
+  relatedSceneName: Email_Scene 11
+  emailTitle: <b>ANZ IB lockout</b>
+  emailContent: "We've had to lock your ANZ Internet Banking access to help protect
+    your security. To unlock your account please complete the security process.\r\n\r\n<b>To
+    complete this process, please <a herf>click here</a>. \r</b>\n\r\nWe have round-the-clock
+    account security provided by ANZ to help protect your account. \r\n"
+  emailType: 1

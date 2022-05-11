@@ -8,6 +8,7 @@ public class UIController : MonoBehaviour
 {
     public Animator backgroundAnimator;
     public float transitonTime;
+    public int inboxIndex;
 
     public void EnterInboxLevel(int sceneIndex)
     {
@@ -18,7 +19,7 @@ public class UIController : MonoBehaviour
 
     public void ReturnToInbox()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(inboxIndex);
     }
 
     IEnumerator ChangeScene(int sceneIndex)

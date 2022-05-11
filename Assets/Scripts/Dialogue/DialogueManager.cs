@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class DialogueManager : MonoBehaviour
 {
@@ -166,10 +167,19 @@ public class DialogueManager : MonoBehaviour
         }
         else
         {
+            // Deactive choice panel
             choicePanel.SetActive(false);
+
+            // Get the current sentence 
             DialogueScentenceData sentence = choiceDialogue.Dequeue();
+
+            // Update UI
             UpdateUI(sentence);
+
+            // Store the cache
             contentCache = sentence.sentenceContent;
+
+            // Typethe words into text panel
             StopAllCoroutines();
             isDisplaying = true;
             StartCoroutine(TypeSentence(sentence.sentenceContent));
@@ -186,10 +196,20 @@ public class DialogueManager : MonoBehaviour
     
     public void UpdateUI(DialogueScentenceData sentence)
     {
+        // Update the content
         dialogueContent.text = sentence.sentenceContent;
+        // Update the name 
         characterName.text = sentence.characterName;
-        characterProtroit.sprite = sentence.characterPortrait;
-        contentCache = sentence.sentenceContent;
+        // Update the protrait
+        if (sentence.characterPortrait != null)
+        {
+            characterProtroit.color = new Color(1,1,1,1);
+            characterProtroit.sprite = sentence.characterPortrait;
+        }
+        else
+        {
+            characterProtroit.color = new Color(0,0,0,0); 
+        }
     }
 
     private void DialogueActionHandler(SentenceActionType actionType)
@@ -207,8 +227,15 @@ public class DialogueManager : MonoBehaviour
 
             case SentenceActionType.EnterTutorialScene:
                 break;
+
+            case SentenceActionType.EnterNextScene:
+                string sceneName = currentSentence.sceneName;
+                if (sceneName != "")
+                {
+                    SceneManager.LoadScene(sceneName);
+                }
+                break;
         }
     }
-
 
 }

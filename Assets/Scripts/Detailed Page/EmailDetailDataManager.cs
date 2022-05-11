@@ -29,6 +29,7 @@ public class EmailDetailDataManager : MonoBehaviour
         senderName = GameObject.Find("Sender Name").GetComponent<Text>();
         emailTitle = GameObject.Find("Email Title").GetComponent<Text>();
         emailContent = GameObject.Find("Email Content").GetComponent<Text>();
+        senderEmailAddress = GameObject.Find("Sender Email Address").GetComponent<Text>();
         date = GameObject.Find("Date").GetComponent<Text>();
 
         InitEmailDetailPageData();
@@ -41,6 +42,7 @@ public class EmailDetailDataManager : MonoBehaviour
         senderName.text = currentEmailItemData.senderName;
         emailTitle.text = currentEmailItemData.emailTitle;
         emailContent.text = currentEmailItemData.emailContent;
+        senderEmailAddress.text = currentEmailItemData.senderEmailAddress;
         date.text = currentEmailItemData.senderTime;
     }
 

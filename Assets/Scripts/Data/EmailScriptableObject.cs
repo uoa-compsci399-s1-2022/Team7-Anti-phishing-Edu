@@ -23,6 +23,8 @@ public class EmailScriptableObject : ScriptableObject
     public string emailTitle;
     [TextArea(10,10)]public string emailContent;
 
+    public bool hasRead;
+
     public EmailType emailType;
 
 }

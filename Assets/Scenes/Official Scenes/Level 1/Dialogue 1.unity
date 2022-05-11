@@ -738,7 +738,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000061035, y: -1220}
+  m_AnchoredPosition: {x: 1.5643e-10, y: -1375}
   m_SizeDelta: {x: 1595, y: 412}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &876975551
@@ -1010,8 +1010,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -561, y: 395}
-  m_SizeDelta: {x: 501, y: 549}
+  m_AnchoredPosition: {x: -556, y: 460}
+  m_SizeDelta: {x: 616, y: 666}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1060654864
 MonoBehaviour:
@@ -1033,7 +1033,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 248a32fc2054e334e9ae74d224c4f35e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d9c18443408871d44bac1fcdf6390725, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1772,7 +1772,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueContent: {fileID: 2040163767}
   characterName: {fileID: 1953241947}
-  characterProtroit: {fileID: 885393857}
+  characterProtroit: {fileID: 1060654864}
   nextSentenceIcon: {fileID: 1709645481}
   choicePanel: {fileID: 1743204478}
   transmissionPanel: {fileID: 580357340}
@@ -1810,233 +1810,247 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sentences:
-  - characterPortrait: {fileID: 21300000, guid: 248a32fc2054e334e9ae74d224c4f35e, type: 3}
+  - characterPortrait: {fileID: 0}
     characterName: Phone
     sentenceContent: "BUZZ,BUZZ,BUZZ\u2026....."
     actionType: 1
+    sceneName: 
     hasChoices: 0
     choiceContent: []
-  - characterPortrait: {fileID: 21300000, guid: 248a32fc2054e334e9ae74d224c4f35e, type: 3}
-    characterName: Fink
-    sentenceContent: '"Ahh, I still want to sleep. Don''t wake me up!"'
-    actionType: 0
-    hasChoices: 0
-    choiceContent:
-    - choiceContent: Choice_1
-      dialogueChoiceSentences: []
-    - choiceContent: Choice_2
-      dialogueChoiceSentences: []
-    - choiceContent: Choice_3
-      dialogueChoiceSentences: []
-  - characterPortrait: {fileID: 21300000, guid: 248a32fc2054e334e9ae74d224c4f35e, type: 3}
-    characterName: Fink
-    sentenceContent: I turn off my alarm without seeing my phonescreen.
-    actionType: 0
-    hasChoices: 0
-    choiceContent: []
-  - characterPortrait: {fileID: 21300000, guid: 248a32fc2054e334e9ae74d224c4f35e, type: 3}
-    characterName: Phone
-    sentenceContent: "BUZZ,BUZZ,BUZZ\u2026....."
-    actionType: 1
-    hasChoices: 0
-    choiceContent: []
-  - characterPortrait: {fileID: 21300000, guid: 248a32fc2054e334e9ae74d224c4f35e, type: 3}
+  - characterPortrait: {fileID: 21300000, guid: d9c18443408871d44bac1fcdf6390725, type: 3}
     characterName: Fink
     sentenceContent: '"What''s wrong with that !? Why my phone keep buzzing?"'
     actionType: 0
+    sceneName: 
     hasChoices: 0
     choiceContent: []
-  - characterPortrait: {fileID: 21300000, guid: 248a32fc2054e334e9ae74d224c4f35e, type: 3}
+  - characterPortrait: {fileID: 21300000, guid: d9c18443408871d44bac1fcdf6390725, type: 3}
     characterName: Fink
     sentenceContent: '"Oh, my head is so painful!  It is Jagger''s phone call."'
     actionType: 0
+    sceneName: 
     hasChoices: 0
     choiceContent: []
-  - characterPortrait: {fileID: 21300000, guid: 248a32fc2054e334e9ae74d224c4f35e, type: 3}
+  - characterPortrait: {fileID: 21300000, guid: d9c18443408871d44bac1fcdf6390725, type: 3}
     characterName: Fink
     sentenceContent: '"Hey, how ''s going buddy! "'
     actionType: 0
+    sceneName: 
     hasChoices: 0
     choiceContent: []
-  - characterPortrait: {fileID: 21300000, guid: 248a32fc2054e334e9ae74d224c4f35e, type: 3}
+  - characterPortrait: {fileID: 21300000, guid: 19e7878aeb29d4a42bb9b83d1444abd9, type: 3}
     characterName: Jagger
     sentenceContent: '"Hey, I''m good! No, this is not important. Where are you?
       It''s already 9am, you are late for work today."'
     actionType: 0
+    sceneName: 
     hasChoices: 0
     choiceContent: []
-  - characterPortrait: {fileID: 21300000, guid: 248a32fc2054e334e9ae74d224c4f35e, type: 3}
+  - characterPortrait: {fileID: 21300000, guid: d9c18443408871d44bac1fcdf6390725, type: 3}
     characterName: Fink
     sentenceContent: '"What!!!!! Oh my god, it''s really 9am! I drunk too much last
       night. I should set up more alarms next time."'
     actionType: 0
+    sceneName: 
     hasChoices: 0
     choiceContent: []
-  - characterPortrait: {fileID: 21300000, guid: 248a32fc2054e334e9ae74d224c4f35e, type: 3}
+  - characterPortrait: {fileID: 21300000, guid: 19e7878aeb29d4a42bb9b83d1444abd9, type: 3}
     characterName: Jagger
     sentenceContent: "\"Just don't drink too much at Sunday next time. Anyway I will
       tell our manager you are sick, so you will come late today.\u201C"
     actionType: 0
+    sceneName: 
     hasChoices: 0
     choiceContent: []
-  - characterPortrait: {fileID: 21300000, guid: 248a32fc2054e334e9ae74d224c4f35e, type: 3}
+  - characterPortrait: {fileID: 21300000, guid: d9c18443408871d44bac1fcdf6390725, type: 3}
     characterName: Fink
     sentenceContent: '"Thank you so much, Jagger!!!!! You save my live." '
     actionType: 0
+    sceneName: 
     hasChoices: 0
     choiceContent: []
-  - characterPortrait: {fileID: 21300000, guid: 248a32fc2054e334e9ae74d224c4f35e, type: 3}
+  - characterPortrait: {fileID: 21300000, guid: d9c18443408871d44bac1fcdf6390725, type: 3}
     characterName: Fink
     sentenceContent: '"Otherwise, I will in big trouble. I owe u a drink!"'
     actionType: 0
+    sceneName: 
     hasChoices: 0
     choiceContent: []
-  - characterPortrait: {fileID: 21300000, guid: 248a32fc2054e334e9ae74d224c4f35e, type: 3}
+  - characterPortrait: {fileID: 21300000, guid: d9c18443408871d44bac1fcdf6390725, type: 3}
     characterName: Fink
     sentenceContent: 'I am 23 years old. I work in a department called "anti-phishing"
       under the company called "xxx". Our company is one of the largest firms all
       over the world. '
     actionType: 0
+    sceneName: 
     hasChoices: 0
     choiceContent: []
-  - characterPortrait: {fileID: 21300000, guid: 248a32fc2054e334e9ae74d224c4f35e, type: 3}
+  - characterPortrait: {fileID: 21300000, guid: d9c18443408871d44bac1fcdf6390725, type: 3}
     characterName: Fink
     sentenceContent: The main job of our department is very similar to cyber-scurity.
       We help our company to avoid the phishing attack.
     actionType: 0
+    sceneName: 
     hasChoices: 0
     choiceContent: []
-  - characterPortrait: {fileID: 21300000, guid: 248a32fc2054e334e9ae74d224c4f35e, type: 3}
+  - characterPortrait: {fileID: 21300000, guid: d9c18443408871d44bac1fcdf6390725, type: 3}
     characterName: Fink
     sentenceContent: "Jagger is my colleagues and best friend as well. We work in
       the same department.  He also studied at the same university as me before.
       He is very reliable and always help me a lot. \r"
     actionType: 0
+    sceneName: 
     hasChoices: 0
     choiceContent: []
-  - characterPortrait: {fileID: 21300000, guid: 248a32fc2054e334e9ae74d224c4f35e, type: 3}
+  - characterPortrait: {fileID: 21300000, guid: d9c18443408871d44bac1fcdf6390725, type: 3}
     characterName: Fink
     sentenceContent: '"Well, I should quickly prepare myself and go to work."'
     actionType: 0
+    sceneName: 
     hasChoices: 0
     choiceContent: []
   - characterPortrait: {fileID: 0}
     characterName: 
     sentenceContent: 'One hour later. '
     actionType: 3
+    sceneName: 
     hasChoices: 0
     choiceContent: []
-  - characterPortrait: {fileID: 21300000, guid: 248a32fc2054e334e9ae74d224c4f35e, type: 3}
+  - characterPortrait: {fileID: 21300000, guid: 19e7878aeb29d4a42bb9b83d1444abd9, type: 3}
     characterName: Jagger
     sentenceContent: '"Finally, you are here, Fink!  "'
     actionType: 0
+    sceneName: 
     hasChoices: 0
     choiceContent: []
-  - characterPortrait: {fileID: 21300000, guid: 248a32fc2054e334e9ae74d224c4f35e, type: 3}
+  - characterPortrait: {fileID: 21300000, guid: 19e7878aeb29d4a42bb9b83d1444abd9, type: 3}
     characterName: Jagger
     sentenceContent: '"Are you ok? You look so tired."'
     actionType: 0
+    sceneName: 
     hasChoices: 0
     choiceContent: []
-  - characterPortrait: {fileID: 21300000, guid: 248a32fc2054e334e9ae74d224c4f35e, type: 3}
+  - characterPortrait: {fileID: 21300000, guid: d9c18443408871d44bac1fcdf6390725, type: 3}
     characterName: Fink
     sentenceContent: '"I still have some headache. I feel like I lose some memory,
       I can''t even remember how can I go back to my bed last night."'
     actionType: 0
+    sceneName: 
     hasChoices: 0
     choiceContent: []
-  - characterPortrait: {fileID: 21300000, guid: 248a32fc2054e334e9ae74d224c4f35e, type: 3}
+  - characterPortrait: {fileID: 21300000, guid: 19e7878aeb29d4a42bb9b83d1444abd9, type: 3}
     characterName: Jagger
     sentenceContent: '"Really!  Do you still remember what tasks you get this week?"'
     actionType: 0
+    sceneName: 
     hasChoices: 0
     choiceContent: []
-  - characterPortrait: {fileID: 21300000, guid: 248a32fc2054e334e9ae74d224c4f35e, type: 3}
+  - characterPortrait: {fileID: 21300000, guid: d9c18443408871d44bac1fcdf6390725, type: 3}
     characterName: Fink
     sentenceContent: "\"Hmmmm, let me think about it\u2026............\""
     actionType: 0
+    sceneName: 
     hasChoices: 0
     choiceContent: []
-  - characterPortrait: {fileID: 21300000, guid: 248a32fc2054e334e9ae74d224c4f35e, type: 3}
+  - characterPortrait: {fileID: 21300000, guid: d9c18443408871d44bac1fcdf6390725, type: 3}
     characterName: Fink
     sentenceContent: '" I need to distinguish the emails whether  is a legetimate
       email or a phishing email, right?"'
     actionType: 0
+    sceneName: 
     hasChoices: 0
     choiceContent: []
-  - characterPortrait: {fileID: 21300000, guid: 248a32fc2054e334e9ae74d224c4f35e, type: 3}
+  - characterPortrait: {fileID: 21300000, guid: 19e7878aeb29d4a42bb9b83d1444abd9, type: 3}
     characterName: Jagger
     sentenceContent: '"Thanks god! You still remember that. But do you want to start
       to do the easy task first?"   '
     actionType: 0
+    sceneName: 
     hasChoices: 0
     choiceContent: []
   - characterPortrait: {fileID: 21300000, guid: 248a32fc2054e334e9ae74d224c4f35e, type: 3}
     characterName: 
     sentenceContent: 
     actionType: 0
+    sceneName: 
     hasChoices: 1
     choiceContent:
     - choiceContent: Yes,please.
       dialogueChoiceSentences:
-      - characterPortrait: {fileID: 21300000, guid: 248a32fc2054e334e9ae74d224c4f35e, type: 3}
+      - characterPortrait: {fileID: 21300000, guid: 19e7878aeb29d4a42bb9b83d1444abd9, type: 3}
         characterName: Jagger
         sentenceContent: Sure, Pretty sure this is the right choice for you.
         actionType: 0
+        sceneName: 
         hasChoices: 0
         choiceContent: []
     - choiceContent: No,I'm good.
       dialogueChoiceSentences:
-      - characterPortrait: {fileID: 21300000, guid: 248a32fc2054e334e9ae74d224c4f35e, type: 3}
+      - characterPortrait: {fileID: 21300000, guid: 19e7878aeb29d4a42bb9b83d1444abd9, type: 3}
         characterName: Jagger
         sentenceContent: Are you sure, buddy?
         actionType: 0
+        sceneName: 
         hasChoices: 0
         choiceContent: []
-      - characterPortrait: {fileID: 21300000, guid: 248a32fc2054e334e9ae74d224c4f35e, type: 3}
+      - characterPortrait: {fileID: 21300000, guid: d9c18443408871d44bac1fcdf6390725, type: 3}
         characterName: Fink
         sentenceContent: Yea, I'm pretty sure.
         actionType: 0
+        sceneName: 
         hasChoices: 0
         choiceContent: []
     - choiceContent: I don't know.
       dialogueChoiceSentences:
-      - characterPortrait: {fileID: 21300000, guid: 248a32fc2054e334e9ae74d224c4f35e, type: 3}
+      - characterPortrait: {fileID: 21300000, guid: 19e7878aeb29d4a42bb9b83d1444abd9, type: 3}
         characterName: Jagger
         sentenceContent: How can you not know what you want to do!!!?
         actionType: 0
+        sceneName: 
         hasChoices: 0
         choiceContent: []
-      - characterPortrait: {fileID: 21300000, guid: 248a32fc2054e334e9ae74d224c4f35e, type: 3}
+      - characterPortrait: {fileID: 21300000, guid: d9c18443408871d44bac1fcdf6390725, type: 3}
         characterName: Fink
         sentenceContent: ' I just want to go back home and sleep.'
         actionType: 0
+        sceneName: 
         hasChoices: 0
         choiceContent: []
-      - characterPortrait: {fileID: 21300000, guid: 248a32fc2054e334e9ae74d224c4f35e, type: 3}
+      - characterPortrait: {fileID: 21300000, guid: 19e7878aeb29d4a42bb9b83d1444abd9, type: 3}
         characterName: Jagger
         sentenceContent: I can understand your feeling buddy. But you need to get
           back the reality.
         actionType: 0
+        sceneName: 
         hasChoices: 0
         choiceContent: []
-  - characterPortrait: {fileID: 21300000, guid: 248a32fc2054e334e9ae74d224c4f35e, type: 3}
+  - characterPortrait: {fileID: 21300000, guid: d9c18443408871d44bac1fcdf6390725, type: 3}
     characterName: Fink
     sentenceContent: '"By the way, Jagger. I have heard about  that our company updated
       the system last firday. I still do not have time to investagate it. "'
     actionType: 0
+    sceneName: 
     hasChoices: 0
     choiceContent: []
-  - characterPortrait: {fileID: 21300000, guid: 248a32fc2054e334e9ae74d224c4f35e, type: 3}
+  - characterPortrait: {fileID: 21300000, guid: d9c18443408871d44bac1fcdf6390725, type: 3}
     characterName: Fink
     sentenceContent: '"Could you please show me how to use our new system?"'
     actionType: 0
+    sceneName: 
     hasChoices: 0
     choiceContent: []
-  - characterPortrait: {fileID: 21300000, guid: 248a32fc2054e334e9ae74d224c4f35e, type: 3}
+  - characterPortrait: {fileID: 21300000, guid: 19e7878aeb29d4a42bb9b83d1444abd9, type: 3}
     characterName: Jagger
     sentenceContent: '"Sure! Let''s go to your place."'
     actionType: 0
+    sceneName: 
+    hasChoices: 0
+    choiceContent: []
+  - characterPortrait: {fileID: 0}
+    characterName: 
+    sentenceContent: 
+    actionType: 4
+    sceneName: Email_Main 1
     hasChoices: 0
     choiceContent: []
 --- !u!1 &1925175099
@@ -2073,8 +2087,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1595, y: 412}
+  m_AnchoredPosition: {x: 3, y: 285}
+  m_SizeDelta: {x: 1920, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1925175101
 MonoBehaviour:
@@ -2251,7 +2265,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -494.4, y: 158.5}
+  m_AnchoredPosition: {x: -494.4, y: 141}
   m_SizeDelta: {x: 407.0586, y: 67.5519}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1953241947
@@ -2488,7 +2502,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3.000061, y: -28}
+  m_AnchoredPosition: {x: 3, y: -37.5}
   m_SizeDelta: {x: 1401.85, y: 229.42}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2040163767
