@@ -15,7 +15,7 @@ MonoBehaviour:
   itemIndex: 1
   senderIcon: {fileID: 21300000, guid: 5d73dac619966e34ea67ab801fb15c3d, type: 3}
   EmailIconNotRead: {fileID: 21300000, guid: 11356c901b476ca4bb47b67e61507c67, type: 3}
-  EmailIconRead: {fileID: 21300000, guid: ad5f1ebd712fb2a478bed59d1fc682ed, type: 3}
+  EmailIconRead: {fileID: 21300000, guid: b0134740188f12e4aa5e66eb80766964, type: 3}
   senderName: Contact Energy
   senderEmailAddress: service@contact.co.nz
   senderTime: 04/05/2022
@@ -51,4 +51,5 @@ MonoBehaviour:
     Analyst
 
 '
+  hasRead: 0
   emailType: 1

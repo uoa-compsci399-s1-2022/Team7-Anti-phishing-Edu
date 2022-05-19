@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class EmailDetailDataManager : MonoBehaviour
 {
     private GameManager gameManager;
+    private InboxEmailDataManager inboxEmailDataManager;
 
     private EmailScriptableObject currentEmailItemData;
 
@@ -44,6 +45,35 @@ public class EmailDetailDataManager : MonoBehaviour
         emailContent.text = currentEmailItemData.emailContent;
         senderEmailAddress.text = currentEmailItemData.senderEmailAddress;
         date.text = currentEmailItemData.senderTime;
+        emailData = currentEmailItemData;
+    }
+
+    public void FalseButtonCheck()
+    {
+        if(currentEmailItemData.emailType == EmailType.NORMAL)
+        {
+            // This email is a nomarl email, show the result to player. 
+        }else if(currentEmailItemData.emailType == EmailType.PHISHING)
+        {
+            // The player make a correct dicision
+        }
+
+        currentEmailItemData.hasRead = true;
+        inboxEmailDataManager.inboxEmailList[currentEmailItemData.itemIndex].hasRead = true;
+    }
+
+    public void TrueButtonCheck()
+    {
+        if (currentEmailItemData.emailType == EmailType.NORMAL)
+        {
+            // Player make a correct dicision. 
+        }
+        else if (currentEmailItemData.emailType == EmailType.PHISHING)
+        {
+            // This email is a phishing email, show the result to player.
+        }
+        currentEmailItemData.hasRead = true;
+        inboxEmailDataManager.inboxEmailList[currentEmailItemData.itemIndex].hasRead = true;
     }
 
 }

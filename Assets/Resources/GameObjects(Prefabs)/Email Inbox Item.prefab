@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &7061731994766461983
+--- !u!1 &1967383991337854413
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,10 +8,10 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 7061731994766461980}
-  - component: {fileID: 7061731994766461978}
-  - component: {fileID: 7061731994766461981}
-  - component: {fileID: 380545627373054413}
+  - component: {fileID: 7547459713486148788}
+  - component: {fileID: 9023515720150249498}
+  - component: {fileID: 2574778182103420842}
+  - component: {fileID: 6126541457210689508}
   m_Layer: 5
   m_Name: Email Inbox Item
   m_TagString: Untagged
@@ -19,13 +19,13 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &7061731994766461980
+--- !u!224 &7547459713486148788
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7061731994766461983}
+  m_GameObject: {fileID: 1967383991337854413}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -33,26 +33,26 @@ RectTransform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 220, y: -555}
+  m_SizeDelta: {x: 420, y: 310}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!222 &7061731994766461978
+--- !u!222 &9023515720150249498
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7061731994766461983}
+  m_GameObject: {fileID: 1967383991337854413}
   m_CullTransparentMesh: 1
---- !u!114 &7061731994766461981
+--- !u!114 &2574778182103420842
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7061731994766461983}
+  m_GameObject: {fileID: 1967383991337854413}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
@@ -76,15 +76,24 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &380545627373054413
+--- !u!114 &6126541457210689508
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7061731994766461983}
+  m_GameObject: {fileID: 1967383991337854413}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8a5a9a88b3fb931448b0009cb0d902b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  emailIcon: {fileID: 2574778182103420842}
+  senderIcon: {fileID: 0}
+  senderName: {fileID: 0}
+  emailTitle: {fileID: 0}
+  emailContent: {fileID: 0}
+  date: {fileID: 0}
+  emailData: {fileID: 11400000, guid: a2434ec6ee1e32c44a397cb1728a894b, type: 2}
+  gameManager: {fileID: 0}
+  detailSceneName: Email_Scene 11

@@ -16,6 +16,10 @@ public class UIController : MonoBehaviour
         StartCoroutine(ChangeScene(sceneIndex));
     }
 
+    public void GotoScene(int sceneIndex)
+    {
+        SceneManager.LoadScene(sceneIndex);
+    }
 
     public void ReturnToInbox()
     {

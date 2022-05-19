@@ -53,9 +53,6 @@ public class HighlightSystem : MonoBehaviour, IPointerEnterHandler, IPointerExit
     IEnumerator CloseChoice()
     {
         yield return new WaitForSeconds(1.0f);
-        if (!choiceSection.GetComponent<HighlightChoice>().isOnChecked)
-        {
-            choiceSection.SetActive(false);
-        }
+        
     }
 }

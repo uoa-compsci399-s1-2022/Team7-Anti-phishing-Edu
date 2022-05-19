@@ -20,8 +20,8 @@ public class GameManager : MonoBehaviour
     private int currentLevelIndex;
     [SerializeField] private EmailScriptableObject currentItem;
 
-    [SerializeField] private List<EmailScriptableObject> level_1_data;
-    [SerializeField] private List<EmailScriptableObject> level_2_data;
+    [SerializeField] public List<EmailScriptableObject> level_1_data;
+    [SerializeField] public List<EmailScriptableObject> level_2_data;
 
     private static GameManager gameManagerInstance;
 

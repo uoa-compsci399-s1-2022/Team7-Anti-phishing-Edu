@@ -9,6 +9,7 @@ public class InboxEmailItem : MonoBehaviour, IPointerEnterHandler, IPointerClick
 {
     private int itemIndex;
 
+    public Image emailIcon;
     public Image senderIcon;
     public Text senderName;
     public Text emailTitle;
@@ -19,6 +20,8 @@ public class InboxEmailItem : MonoBehaviour, IPointerEnterHandler, IPointerClick
     public EmailScriptableObject emailData;
     public GameManager gameManager;
     public string detailSceneName;
+
+    public bool hasRead;
 
     private void Start()
     {

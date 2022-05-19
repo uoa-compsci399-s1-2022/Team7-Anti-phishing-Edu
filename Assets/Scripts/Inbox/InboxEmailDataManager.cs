@@ -8,7 +8,7 @@ public class InboxEmailDataManager : EmailDataReader
     public GameObject inboxEmailContainer; // Place to spawn the emails
     public int levelIndex;
 
-    private List<EmailScriptableObject> inboxEmailList;
+    public List<EmailScriptableObject> inboxEmailList;
     
     private void Start()
     {
@@ -18,8 +18,19 @@ public class InboxEmailDataManager : EmailDataReader
         for(int index = 0; index < inboxEmailList.Count; index++)
         {
             GameObject singleEmail = Instantiate(Resources.Load("GameObjects(Prefabs)/Email Inbox Item") as GameObject, inboxEmailContainer.transform);
-            singleEmail.GetComponent<InboxEmailItem>().emailData = inboxEmailList[index];
-            singleEmail.GetComponent<InboxEmailItem>().detailSceneName = inboxEmailList[index].relatedSceneName;
+            InboxEmailItem inboxEmailItemComp = singleEmail.GetComponent<InboxEmailItem>();
+
+            inboxEmailItemComp.emailData = inboxEmailList[index];
+            inboxEmailItemComp.detailSceneName = inboxEmailList[index].relatedSceneName;
+            inboxEmailItemComp.hasRead = inboxEmailList[index].hasRead;
+
+            if (!inboxEmailItemComp.hasRead)
+            {
+                inboxEmailItemComp.emailIcon.sprite = inboxEmailList[index].EmailIconNotRead;
+            }else if (inboxEmailItemComp.hasRead)
+            {
+                inboxEmailItemComp.emailIcon.sprite = inboxEmailList[index].EmailIconRead;
+            }
         }
     }
 

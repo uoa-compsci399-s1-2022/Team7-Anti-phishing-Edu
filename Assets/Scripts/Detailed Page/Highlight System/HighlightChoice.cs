@@ -5,20 +5,15 @@ using UnityEngine.EventSystems;
 
 public class HighlightChoice : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
-
-    public HighlightSystem highlightSystem;
-
-    public bool isOnChecked;
+    public GameObject URL;
 
     public void OnPointerEnter(PointerEventData eventData)
     {
-        isOnChecked = true;
-        gameObject.SetActive(true);
+        URL.SetActive(true);
     }
 
     public void OnPointerExit(PointerEventData eventData)
     {
-        isOnChecked = false;
-        gameObject.SetActive(false);
+        URL.SetActive(false);
     }
 }
