@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemIndex: 2
   senderIcon: {fileID: 21300000, guid: 5d73dac619966e34ea67ab801fb15c3d, type: 3}
-  EmailIconNotRead: {fileID: 21300000, guid: 11356c901b476ca4bb47b67e61507c67, type: 3}
-  EmailIconRead: {fileID: 21300000, guid: b0134740188f12e4aa5e66eb80766964, type: 3}
+  EmailIconNotRead: {fileID: 21300000, guid: 0302d23a5fbac0b468e7fd5a23c619ae, type: 3}
+  EmailIconRead: {fileID: 21300000, guid: 493a9ec9b9f012f40b8d4618ff9a0a5e, type: 3}
   senderName: Bank
   senderEmailAddress: payment@epayment00.com
   senderTime: 04/05/2022

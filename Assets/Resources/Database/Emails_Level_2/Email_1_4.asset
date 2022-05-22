@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 831b9e2a96406a04dbe73219cede5852, type: 3}
+  m_Name: Email_1_4
+  m_EditorClassIdentifier: 
+  itemIndex: 4
+  senderIcon: {fileID: 21300000, guid: 5d73dac619966e34ea67ab801fb15c3d, type: 3}
+  EmailIconNotRead: {fileID: 21300000, guid: 0302d23a5fbac0b468e7fd5a23c619ae, type: 3}
+  EmailIconRead: {fileID: 21300000, guid: 493a9ec9b9f012f40b8d4618ff9a0a5e, type: 3}
+  senderName: Account Support
+  senderEmailAddress: 'reza.clalucyankdia6@gmail.com '
+  senderTime: 04/05/2022
+  relatedSceneName: Email_Scene 25
+  emailTitle: <b>Your account has been filtered by our system for authentication.
+    </b>
+  emailContent: "Dear Customer.\r\n\r\nYour account has been filtered by our system
+    for authentication. Please view the \r\npossible events listed below for this
+    cause.\r\n \r\nPossible events occurred \r\n1 .Log in attempts from, Windows
+    10  -Auckland, New Zealand.\r\n2 .Requesting any operation using unusual pattern.\r\n3
+    .Too many incorrect log in attempts.\r\n\r\nFor security, all your account features
+    are disabled until a response has been \r\nreceived from you.\r\n\r\nPlease click
+    ' Authenticate now\u2019 button below to secure your account.\r\n\n\n\n\r\nBest
+    regards .\r\nPayPal Inc Help Center \r\n"
+  hasRead: 1
+  emailType: 1

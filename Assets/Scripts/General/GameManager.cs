@@ -15,15 +15,18 @@ public class GameManager : MonoBehaviour
     [SerializeField] private int correctNum = 0;
     [SerializeField] private int wrongNum = 0;
     [SerializeField] private int totalNum = 0;
+    [SerializeField] private int score = 0;
+    [SerializeField] private int totalScore = 0;
 
     private List<EmailScriptableObject> currentData;
     private int currentLevelIndex;
-    [SerializeField] private EmailScriptableObject currentItem;
+    [SerializeField] public EmailScriptableObject currentItem;
 
     [SerializeField] public List<EmailScriptableObject> level_1_data;
     [SerializeField] public List<EmailScriptableObject> level_2_data;
 
     private static GameManager gameManagerInstance;
+    
 
     #endregion
 
@@ -62,10 +65,15 @@ public class GameManager : MonoBehaviour
             case 1:
                 currentData = level_1_data;
                 break;
+
+            case 2:
+                currentData = level_2_data;
+                break;
         }
 
         return currentData;
     }
+
 
     public void ChangedToScene(string sceneName)
     {
@@ -74,7 +82,7 @@ public class GameManager : MonoBehaviour
 
     public void ChangedToDetailScene(string sceneName, int itemIndex)
     {
-        currentItem = currentData[itemIndex];
+        //currentItem = currentData[itemIndex];
         SceneManager.LoadScene(sceneName);
     }
 
@@ -83,6 +91,18 @@ public class GameManager : MonoBehaviour
         return currentItem;
     }
 
+    public int GetCurrentScore()
+    {
+        return score;
+    }
+
+    public void SetCurrentScore(int amount)
+    {
+        int temp = score += amount;
+        if (temp < 0)
+            return;
+        score += amount;
+    }
 
     #endregion
 }

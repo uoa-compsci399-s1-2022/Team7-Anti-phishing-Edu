@@ -19,6 +19,7 @@ public class InboxEmailItem : MonoBehaviour, IPointerEnterHandler, IPointerClick
     [SerializeField]
     public EmailScriptableObject emailData;
     public GameManager gameManager;
+    public Animator emailItemAnim;
     public string detailSceneName;
 
     public bool hasRead;
@@ -38,18 +39,21 @@ public class InboxEmailItem : MonoBehaviour, IPointerEnterHandler, IPointerClick
 
     public void OnPointerClick(PointerEventData eventData)
     {
+        gameManager.currentItem = emailData;
         gameManager.ChangedToDetailScene(detailSceneName, itemIndex);
     }
 
     public void OnPointerEnter(PointerEventData eventData)
     {
-        transform.localScale = new Vector3(1.1f, 1.1f, 1.1f);
+        //transform.localScale = new Vector3(1.05f, 1.05f, 1.05f);
+        emailItemAnim.SetTrigger("OnPointerEnter");
         UpdateInfo();
     }
 
     public void OnPointerExit(PointerEventData eventData)
     {
-        transform.localScale = Vector3.one;
+        //transform.localScale = Vector3.one;
+        emailItemAnim.SetTrigger("OnPointerExit");
     }
 
     /// <summary>

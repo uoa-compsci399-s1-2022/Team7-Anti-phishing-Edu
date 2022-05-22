@@ -26,6 +26,7 @@ public class UIController : MonoBehaviour
         SceneManager.LoadScene(inboxIndex);
     }
 
+
     IEnumerator ChangeScene(int sceneIndex)
     {
         yield return new WaitForSeconds(transitonTime);

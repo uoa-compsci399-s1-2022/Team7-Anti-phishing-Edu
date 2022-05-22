@@ -27,6 +27,11 @@ public class EmailScriptableObject : ScriptableObject
 
     public EmailType emailType;
 
+    public void ChangeReadState(bool newState)
+    {
+        hasRead = newState;
+    }
+
 }
 
 public enum EmailType

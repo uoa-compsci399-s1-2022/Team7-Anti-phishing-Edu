@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 831b9e2a96406a04dbe73219cede5852, type: 3}
+  m_Name: Email_1_1
+  m_EditorClassIdentifier: 
+  itemIndex: 1
+  senderIcon: {fileID: 21300000, guid: 5d73dac619966e34ea67ab801fb15c3d, type: 3}
+  EmailIconNotRead: {fileID: 21300000, guid: 0302d23a5fbac0b468e7fd5a23c619ae, type: 3}
+  EmailIconRead: {fileID: 21300000, guid: 493a9ec9b9f012f40b8d4618ff9a0a5e, type: 3}
+  senderName: Tessian Company Doc/Payrol
+  senderEmailAddress: noreply@tessian.com
+  senderTime: 04/05/2022
+  relatedSceneName: Email_Scene 22
+  emailTitle: <b>Updated DECEMBER Bonus/Allowance Payment Structure (Final Post-Covid-19
+    listing) And Classified Company Documents For You!!! </b>
+  emailContent: "Dear All,\r\n   \r\nAs already announced, The year's end of the
+    year Wage bonus/Allowances will start in DECEMBER of 2021\r\nand will be paid
+    out for the first time this DECEMBER with recalculation as of NOVEMBER.\r\nAlso,
+    find some classified company info/documents for you.\r\n   \r\nView <a herf>
+    salary-increase/bonus-sheet-DECEMBER-2021-And-Classified-Company-Info/Doc.xls</a>  
+    \r\n   \r\nYou will be informed of the details in advance by a letter from the
+    Human Resource department.\r\n\r\nregards\r\nTessian Management\r\n"
+  hasRead: 0
+  emailType: 1

@@ -6,14 +6,19 @@ public class InboxEmailDataManager : EmailDataReader
 {
     public GameManager gameManager;
     public GameObject inboxEmailContainer; // Place to spawn the emails
+    public GameObject returnButton;
     public int levelIndex;
 
     public List<EmailScriptableObject> inboxEmailList;
-    
+
+    [SerializeField] private bool isAllEmailChecked;
+
     private void Start()
     {
         gameManager = GameObject.Find("Game Manager").GetComponent<GameManager>();
         inboxEmailList = gameManager.LoadDataToManager(levelIndex);
+
+        isAllEmailChecked = true;
 
         for(int index = 0; index < inboxEmailList.Count; index++)
         {
@@ -27,11 +32,21 @@ public class InboxEmailDataManager : EmailDataReader
             if (!inboxEmailItemComp.hasRead)
             {
                 inboxEmailItemComp.emailIcon.sprite = inboxEmailList[index].EmailIconNotRead;
-            }else if (inboxEmailItemComp.hasRead)
+                inboxEmailItemComp.emailIcon.SetNativeSize();
+                isAllEmailChecked = false;
+
+            }
+            else if (inboxEmailItemComp.hasRead)
             {
+                Debug.Log("Item Changed!");
                 inboxEmailItemComp.emailIcon.sprite = inboxEmailList[index].EmailIconRead;
+                inboxEmailItemComp.emailIcon.SetNativeSize();
             }
         }
-    }
 
+        if (isAllEmailChecked)
+        {
+            returnButton.SetActive(true);
+        }
+    }
 }

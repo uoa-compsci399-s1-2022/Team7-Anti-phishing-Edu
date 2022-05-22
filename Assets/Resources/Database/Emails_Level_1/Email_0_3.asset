@@ -14,19 +14,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemIndex: 3
   senderIcon: {fileID: 21300000, guid: 5d73dac619966e34ea67ab801fb15c3d, type: 3}
-  EmailIconNotRead: {fileID: 21300000, guid: 11356c901b476ca4bb47b67e61507c67, type: 3}
-  EmailIconRead: {fileID: 21300000, guid: b0134740188f12e4aa5e66eb80766964, type: 3}
-  senderName: Bank
-  senderEmailAddress: payment@epayment00.com
+  EmailIconNotRead: {fileID: 21300000, guid: 0302d23a5fbac0b468e7fd5a23c619ae, type: 3}
+  EmailIconRead: {fileID: 21300000, guid: 493a9ec9b9f012f40b8d4618ff9a0a5e, type: 3}
+  senderName: Tony Stark
+  senderEmailAddress: ceo5@aol.com
   senderTime: 04/05/2022
-  relatedSceneName: Email_Scene 13
-  emailTitle: '<b>RE: new payment</b>'
-  emailContent: 'Please find attached bank slip for new payment on your account.
-
-
-    Regards,
-
-    Account
-    Department'
+  relatedSceneName: Email_Scene 14
+  emailTitle: <b>Change My Details</b>
+  emailContent: "Good Morning,\r\n\r\nI have recently changed banks, I need you to
+    have direct deposit changed to my new account, my previous account on file will
+    be inactive in 30 days.\r\nI need your prompt assistance on this matter.\r\n\r\nRegards,\r\nTony
+    Stark.\r\nSent from my mobile \r\n"
   hasRead: 0
   emailType: 1
