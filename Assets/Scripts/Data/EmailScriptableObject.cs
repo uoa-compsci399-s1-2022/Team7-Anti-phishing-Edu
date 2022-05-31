@@ -27,10 +27,25 @@ public class EmailScriptableObject : ScriptableObject
 
     public EmailType emailType;
 
+    public PlayerAns playerAns;
+
+    private bool playerChoice;
+
     public void ChangeReadState(bool newState)
     {
         hasRead = newState;
     }
+
+    public bool GetPlayerChoice()
+    {
+        return playerChoice;
+    }
+
+    public void SetPlayerChoice(bool playerChoice)
+    {
+        this.playerChoice = playerChoice;
+    }
+
 
 }
 
@@ -38,5 +53,12 @@ public enum EmailType
 {
     NORMAL,
     PHISHING, 
+}
+
+public enum PlayerAns
+{
+    None,
+    Correct,
+    Wrong
 }
 

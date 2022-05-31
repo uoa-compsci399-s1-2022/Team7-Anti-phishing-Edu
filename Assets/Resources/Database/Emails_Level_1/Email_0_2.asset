@@ -30,3 +30,4 @@ MonoBehaviour:
     Department'
   hasRead: 0
   emailType: 1
+  playerAns: 0

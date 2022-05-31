@@ -205,6 +205,7 @@ public class DialogueManager : MonoBehaviour
         {
             characterProtroit.color = new Color(1,1,1,1);
             characterProtroit.sprite = sentence.characterPortrait;
+            characterProtroit.SetNativeSize();
         }
         else
         {

@@ -30,6 +30,7 @@ public class EmailDetailDataManager : MonoBehaviour
     [SerializeField]
     public EmailScriptableObject emailData;
 
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -66,10 +67,23 @@ public class EmailDetailDataManager : MonoBehaviour
         date.text = currentEmailItemData.senderTime;
         emailData = currentEmailItemData;
 
+        SetupButtonColors(trueButton, Color.green);
+        SetupButtonColors(falseButton, Color.red);
+
         if (currentEmailItemData.hasRead)
         {
-            trueButton.enabled = false;
-            falseButton.enabled = false;
+
+            if(currentEmailItemData.GetPlayerChoice())
+            {
+                // Correct
+                trueButton.interactable = false;
+                falseButton.enabled = false;
+            }
+            else
+            {
+                trueButton.enabled = false;
+                falseButton.interactable = false;
+            }
         }
 
         feedbacks.SetActive(false);
@@ -86,17 +100,19 @@ public class EmailDetailDataManager : MonoBehaviour
         if(currentEmailItemData.emailType == EmailType.NORMAL)
         {
             // This email is a nomarl email, show the result to player. 
-            gameManager.SetCurrentScore(-10);
+            // gameManager.SetCurrentScore(-10);
 
             normalFalse.SetActive(true);
+            emailData.playerAns = PlayerAns.Wrong;
         }
         else if(currentEmailItemData.emailType == EmailType.PHISHING)
         {
             gameManager.SetCurrentScore(10);
-
+            emailData.playerAns = PlayerAns.Correct;
             phishingTrue.SetActive(true);
         }
 
+        emailData.SetPlayerChoice(false);
         currentEmailItemData.hasRead = true;
         gameManager.level_1_data[currentEmailItemData.itemIndex].hasRead = true;
     }
@@ -111,15 +127,32 @@ public class EmailDetailDataManager : MonoBehaviour
             // Player make a correct dicision. 
             gameManager.SetCurrentScore(10);
             normalTrue.SetActive(true);
+            emailData.playerAns = PlayerAns.Correct;
         }
         else if (currentEmailItemData.emailType == EmailType.PHISHING)
         {
-            gameManager.SetCurrentScore(-10);
+            emailData.playerAns = PlayerAns.Wrong;
+            //gameManager.SetCurrentScore(-10);
             phishingFalse.SetActive(true);
         }
 
+        emailData.SetPlayerChoice(true);
         currentEmailItemData.hasRead = true;
         gameManager.level_1_data[currentEmailItemData.itemIndex].hasRead = true;
+    }
+
+
+    private void SetupButtonColors(Button targetButton, Color targetColor)
+    {
+        ColorBlock buttonColorBlock = new ColorBlock();
+        buttonColorBlock.normalColor = Color.white;
+        buttonColorBlock.selectedColor = targetColor;
+        buttonColorBlock.disabledColor = targetColor;
+        buttonColorBlock.pressedColor = targetColor;
+        buttonColorBlock.highlightedColor = targetColor;
+        buttonColorBlock.colorMultiplier = 1;
+        buttonColorBlock.fadeDuration = 0.1f;
+        targetButton.colors = buttonColorBlock;
     }
 
 }

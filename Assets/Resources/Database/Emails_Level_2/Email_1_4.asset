@@ -30,5 +30,6 @@ MonoBehaviour:
     are disabled until a response has been \r\nreceived from you.\r\n\r\nPlease click
     ' Authenticate now\u2019 button below to secure your account.\r\n\n\n\n\r\nBest
     regards .\r\nPayPal Inc Help Center \r\n"
-  hasRead: 1
+  hasRead: 0
   emailType: 1
+  playerAns: 0
