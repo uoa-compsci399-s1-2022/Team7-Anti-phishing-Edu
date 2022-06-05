@@ -17,12 +17,14 @@ Link to our Project Managment Tool: https://likeable-apple-366.notion.site/69b61
 
 ## Technology Used
 
-
 ### Tools:
+
 Unity3D - We have used Unity3D 2020.3.31 LTS as our game engine.
 
 ### Lanaguages:
+
 C# - C# is the main lanaguage we have used to code our game scripts.
+
 HTML/CSS - HTML helps us to build a website and deploy our game on github page.
 
 ## Instructions to install
@@ -30,6 +32,7 @@ HTML/CSS - HTML helps us to build a website and deploy our game on github page.
 
 ### For source code:
 If you want to check our source code and do not have unity engine, please download Unity from their official website: https://unity3d.com/get-unity/download.
+
 For a better compile environment, please download the Long-Term-Support(LTS) version, with the version number: 2020.3.31f
 
 Dependencies are included in our project files.
@@ -54,3 +57,13 @@ Our client Nalin Arachchliage https://unidirectory.auckland.ac.nz/profile/nalin-
 Tutorials we have been used when developing our game: 
 1. https://www.youtube.com/c/Brackeys
 2. https://www.youtube.com/c/CodeMonkeyUnity
+
+## Our team members:
+
+**Ruiqi Zhang** - Technology leader Frontend Backend
+**Leyang Liu** - Project Manager UI/UX Design
+**Vicky Wang** - Data research screen writer
+**Rainbow Ou** - Data research screen writer
+**Sherry Liu** - Frontend Tester
+**Tuanyu Zhou** - Data research Tester
+
