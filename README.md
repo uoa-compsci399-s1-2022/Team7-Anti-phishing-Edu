@@ -39,7 +39,7 @@ Dependencies are included in our project files.
 
 ### For game build:
 We offer two ways to play our game, in case one of other failed to load:
-1. Visit https://play.unity.com/mg/other/cs399-deloy-build-v2-0 to play on Unity's online server.
+1. Visit https://play.unity.com/mg/other/cs399-deloy-build-v2-0-1 to play on Unity's online server.
 2. Visit https://kanericky.github.io/CS399-Deloy-Build/ to play on Github Page.
 
 Link to our build repo: https://github.com/kanericky/CS399-Deloy-Build. Since we need to published our game on Github Page, we put the build file on our tech leader Ruiqi Zhang's personal repository.
