@@ -371,9 +371,18 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Good day.\r\n\r\nI am Gary from the sales department. \r\nPlease see attached,
-    my colleague is currently out of the office. I am available for further clarification.\r\n\r\nKind
-    Regards,\r\nGary\r\n"
+  m_Text: 'One of our Team member have been infected by the Corona Virus.
+
+    View
+    the secured Document to get more details and also guidelines on how to keep safe.
+
+
+
+    Regards,
+
+    Management
+
+'
 --- !u!222 &173087625
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1090,7 +1099,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 15
+          m_IntArgument: 24
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -1166,7 +1175,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0.0036186287}
+  m_AnchoredPosition: {x: 0, y: 0.00090511516}
   m_SizeDelta: {x: 0, y: 1581.6318}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &1094381933
@@ -1261,8 +1270,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 24.573, y: 272.56055}
-  m_SizeDelta: {x: 1309.3943, y: 168.1212}
+  m_AnchoredPosition: {x: 24.573, y: 254.603}
+  m_SizeDelta: {x: 1309.394, y: 132.204}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1107832631
 MonoBehaviour:
@@ -1470,6 +1479,9 @@ MonoBehaviour:
   currentItem: {fileID: 0}
   level_1_data: []
   level_2_data: []
+  level_3_data: []
+  level_4_data: []
+  level_5_data: []
 --- !u!4 &1264920954
 Transform:
   m_ObjectHideFlags: 0
@@ -2017,8 +2029,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 361.9223, y: 1}
-  m_SizeDelta: {x: 555.2576, y: 40.8162}
+  m_AnchoredPosition: {x: 380.7582, y: 1}
+  m_SizeDelta: {x: 592.929, y: 40.816}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1662390961
 MonoBehaviour:
@@ -2092,8 +2104,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 362.17596, y: 0.6869278}
-  m_SizeDelta: {x: 534.5759, y: 30}
+  m_AnchoredPosition: {x: 450.0767, y: 0.6869278}
+  m_SizeDelta: {x: 710.377, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1696104099
 MonoBehaviour:
@@ -2128,7 +2140,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'URL: www.epayment00.com/#RFQE67Y54'
+  m_Text: URL:www.novasolutions@server898.sotmasr.com
 --- !u!222 &1696104100
 CanvasRenderer:
   m_ObjectHideFlags: 0

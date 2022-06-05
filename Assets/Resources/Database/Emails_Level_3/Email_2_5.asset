@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 831b9e2a96406a04dbe73219cede5852, type: 3}
+  m_Name: Email_2_5
+  m_EditorClassIdentifier: 
+  itemIndex: 5
+  senderIcon: {fileID: 21300000, guid: 5d73dac619966e34ea67ab801fb15c3d, type: 3}
+  EmailIconNotRead: {fileID: 21300000, guid: 0302d23a5fbac0b468e7fd5a23c619ae, type: 3}
+  EmailIconRead: {fileID: 21300000, guid: 493a9ec9b9f012f40b8d4618ff9a0a5e, type: 3}
+  senderName: Countdown
+  senderEmailAddress: <survey@colmarbrunton.co.nz>
+  senderTime: 04/05/2022
+  relatedSceneName: Email_Scene 36
+  emailTitle: <b>Onecard survey invitation</b>
+  emailContent: "As a valued Onecard member, your views and opinions are important
+    to Countdown. That\xB4s why Countdown have partnered with Kantar (formerly Colmar
+    Brunton), one of NZ\xB4s most respected research companies, for this study.\r\n\r\nWe
+    hope you can share your thoughts and attitudes towards shopping in this survey,
+    which should only take\_15\u201020 minutes\_to complete.\r\n\r\nYou have until
+    midnight on\_10 April 2022\_to complete this survey. However, the survey may
+    close prior to this date if the number of responses has been achieved. As a thank
+    you from Countdown for taking part, we are offering an entry into a prize draw
+    to win a number of Countdown e\u2010giftcards, to enable you to buy groceries
+    from Countdown. There are 37 potential winners with a total of $5,000 worth of
+    e\u2010gift cards up for grabs.\r\nClick the link for this survey:\r\n<a herf>https://surveys.colmarbrunton.co.nz/scripts/dubinterviewer.dll/frames?L=_OU9YGbIaCo6TAZQ</a>\r\nIf
+    you would like to contact us about this survey, simply reply to this email or
+    alternatively email us at\_<a herf>survey@colmarbrunton.co.nz</a>\r\n\r\nThanks,
+    in advance, for your time and your views! "
+  hasRead: 0
+  emailType: 0
+  playerAns: 1

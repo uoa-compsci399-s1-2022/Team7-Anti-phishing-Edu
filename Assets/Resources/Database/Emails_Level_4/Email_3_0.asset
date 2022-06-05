@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 831b9e2a96406a04dbe73219cede5852, type: 3}
+  m_Name: Email_3_0
+  m_EditorClassIdentifier: 
+  itemIndex: 0
+  senderIcon: {fileID: 21300000, guid: 5d73dac619966e34ea67ab801fb15c3d, type: 3}
+  EmailIconNotRead: {fileID: 21300000, guid: 0302d23a5fbac0b468e7fd5a23c619ae, type: 3}
+  EmailIconRead: {fileID: 21300000, guid: 493a9ec9b9f012f40b8d4618ff9a0a5e, type: 3}
+  senderName: rpac_custsupport_en@apple.com
+  senderEmailAddress: rpac_custsupport_en@apple.com
+  senderTime: 04/04/2022 18:04
+  relatedSceneName: Email_Scene 41
+  emailTitle: '<b>Your Apple order A123456789; Follow-up: 123456789 </b>'
+  emailContent: "Dear Fink,\r\nThank you for your patience. We had reviewed your
+    request. We anticipate that our carrier will deliver your order on xx November
+    2022. \r\n\r\n<a herf>Login to track shipment\r</a>\n\r\nThank you for choosing
+    Apple. \r\nSincerely, \r\nXX. \r\nApple Store\r\n"
+  hasRead: 0
+  emailType: 1
+  playerAns: 0

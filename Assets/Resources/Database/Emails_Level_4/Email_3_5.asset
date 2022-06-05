@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 831b9e2a96406a04dbe73219cede5852, type: 3}
+  m_Name: Email_3_5
+  m_EditorClassIdentifier: 
+  itemIndex: 5
+  senderIcon: {fileID: 21300000, guid: 5d73dac619966e34ea67ab801fb15c3d, type: 3}
+  EmailIconNotRead: {fileID: 21300000, guid: 0302d23a5fbac0b468e7fd5a23c619ae, type: 3}
+  EmailIconRead: {fileID: 21300000, guid: 493a9ec9b9f012f40b8d4618ff9a0a5e, type: 3}
+  senderName: The Grove
+  senderEmailAddress: <info@thegroverestaurant.co.nz>
+  senderTime: 04/05/2022
+  relatedSceneName: Email_Scene 46
+  emailTitle: "<b> Food with Thought - supporting the children of Ukraine\_</b>"
+  emailContent: "This week we invite you to dine with us and enjoy the last of the
+    Kiwi summer with The\_Grove's late summer menu. This is the perfect opportunity
+    to organise that anniversary dinner, or a group dinner with friends and family,
+    as this week we will be donating 20% of all proceeds to support the\_Ukrainian
+    children affected by the Russia-Ukraine\_war.\r\n\r\nDonations will be made to
+    Save the\_Children, a\_global children's charity\_providing\_food and basic needs\_and
+    has been operating in Ukraine since 2014 - more information on the\_charity can
+    be\_found\_here(<a herf>https://www.savethechildren.org.nz/</a>)\r\n\r\nReservations
+    are now open for this weeks'\_Food with Thought\_- either book directly online,
+    or call our lovely team on 09 368 4129.\r\n\r\nWe hope to see you this week -
+    together we can make a difference.\r\n\r\nThe Grove team."
+  hasRead: 0
+  emailType: 0
+  playerAns: 0

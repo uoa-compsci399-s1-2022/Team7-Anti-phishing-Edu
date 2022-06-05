@@ -1810,142 +1810,38 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sentences:
-  - characterPortrait: {fileID: 21300000, guid: 19e7878aeb29d4a42bb9b83d1444abd9, type: 3}
-    characterName: Jagger
-    sentenceContent: "\"Morning, Fink.Do you know that our company have a anti-phishing
-      competition this week?\"\r"
-    actionType: 0
-    sceneName: 
-    hasChoices: 0
-    choiceContent: []
-  - characterPortrait: {fileID: 21300000, guid: d9c18443408871d44bac1fcdf6390725, type: 3}
-    characterName: Fink
-    sentenceContent: "\"Really!!? I have never heard about that before?\"\r"
-    actionType: 0
-    sceneName: 
-    hasChoices: 0
-    choiceContent: []
-  - characterPortrait: {fileID: 21300000, guid: 19e7878aeb29d4a42bb9b83d1444abd9, type: 3}
-    characterName: Jagger
-    sentenceContent: '"Yea, this is the newest competition this year.Do you want
-      to participate this competition?"
-
-'
-    actionType: 0
-    sceneName: 
-    hasChoices: 0
-    choiceContent: []
-  - characterPortrait: {fileID: 21300000, guid: b1aaeb939d507e54d896714be070ffa5, type: 3}
-    characterName: Jessica
-    sentenceContent: '"Morning,Jagger."
-
-'
-    actionType: 0
-    sceneName: 
-    hasChoices: 0
-    choiceContent: []
-  - characterPortrait: {fileID: 21300000, guid: b1aaeb939d507e54d896714be070ffa5, type: 3}
-    characterName: Jessica
-    sentenceContent: "\"Morning, Fink.You should join the competition.Because I will
-      join it, and you are always the one I want to win. Don't escape it.\"\r"
-    actionType: 0
-    sceneName: 
-    hasChoices: 0
-    choiceContent: []
-  - characterPortrait: {fileID: 21300000, guid: d9c18443408871d44bac1fcdf6390725, type: 3}
-    characterName: Fink
-    sentenceContent: "\"Well,it is my pleasure.I will accept your challenge.\"\r"
-    actionType: 0
-    sceneName: 
-    hasChoices: 0
-    choiceContent: []
-  - characterPortrait: {fileID: 21300000, guid: b1aaeb939d507e54d896714be070ffa5, type: 3}
-    characterName: Jessica
-    sentenceContent: "\"Haha! I have been trained myself a lot of anti-phishing knowledge
-      this few weeks.I will win you this time!\"\r"
-    actionType: 0
-    sceneName: 
-    hasChoices: 0
-    choiceContent: []
-  - characterPortrait: {fileID: 21300000, guid: d9c18443408871d44bac1fcdf6390725, type: 3}
-    characterName: Fink
-    sentenceContent: "\"Take it easy, Jessica! It's just a normal competition.\"\r"
-    actionType: 0
-    sceneName: 
-    hasChoices: 0
-    choiceContent: []
-  - characterPortrait: {fileID: 21300000, guid: b1aaeb939d507e54d896714be070ffa5, type: 3}
-    characterName: Jessica
-    sentenceContent: "\"No way,why you are always the first place winner, but I am
-      the second one!!! I don't accept that.\"\r"
-    actionType: 0
-    sceneName: 
-    hasChoices: 0
-    choiceContent: []
-  - characterPortrait: {fileID: 21300000, guid: d9c18443408871d44bac1fcdf6390725, type: 3}
-    characterName: Fink
-    sentenceContent: "\"Relax, Jessica. Relax!\"\r"
-    actionType: 0
-    sceneName: 
-    hasChoices: 0
-    choiceContent: []
-  - characterPortrait: {fileID: 21300000, guid: d9c18443408871d44bac1fcdf6390725, type: 3}
-    characterName: Fink
-    sentenceContent: "Jessica studied the same major under the same university as
-      me before. But I always win her in the same competition. I feel like she doesn't
-      like me. \r"
-    actionType: 0
-    sceneName: 
-    hasChoices: 0
-    choiceContent: []
-  - characterPortrait: {fileID: 21300000, guid: b1aaeb939d507e54d896714be070ffa5, type: 3}
-    characterName: Jessica
-    sentenceContent: "\"Sorry, I am too excited. Any way, see you soon.\"\r"
-    actionType: 0
-    sceneName: 
-    hasChoices: 0
-    choiceContent: []
-  - characterPortrait: {fileID: 21300000, guid: 19e7878aeb29d4a42bb9b83d1444abd9, type: 3}
-    characterName: Jagger
-    sentenceContent: "\"Haha, Fink. She's so jealous yout talnet.\"\r"
-    actionType: 0
-    sceneName: 
-    hasChoices: 0
-    choiceContent: []
-  - characterPortrait: {fileID: 21300000, guid: 19e7878aeb29d4a42bb9b83d1444abd9, type: 3}
-    characterName: Jagger
-    sentenceContent: "\"By the way, I heard soneone said that this competition will
-      focus on topic 'number in the URL'.\"\r"
-    actionType: 0
-    sceneName: 
-    hasChoices: 0
-    choiceContent: []
-  - characterPortrait: {fileID: 21300000, guid: d9c18443408871d44bac1fcdf6390725, type: 3}
-    characterName: Fink
-    sentenceContent: "\"Thanks Jagger. I will do some preparation on that topic.\"\r"
-    actionType: 0
-    sceneName: 
-    hasChoices: 0
-    choiceContent: []
   - characterPortrait: {fileID: 0}
     characterName: 
-    sentenceContent: 'On the day of anti-phishing competition.
+    sentenceContent: 'Company have too many COVID-19 cases and are short of staff
+      to handle phishing emails.
 
 '
-    actionType: 3
-    sceneName: 
-    hasChoices: 0
-    choiceContent: []
-  - characterPortrait: {fileID: 21300000, guid: 19e7878aeb29d4a42bb9b83d1444abd9, type: 3}
-    characterName: Jagger
-    sentenceContent: "\"Flighting! Fink.\"\r"
     actionType: 0
     sceneName: 
     hasChoices: 0
     choiceContent: []
-  - characterPortrait: {fileID: 21300000, guid: b1aaeb939d507e54d896714be070ffa5, type: 3}
-    characterName: Jessica
-    sentenceContent: '"Haha, I will win you this time!"
+  - characterPortrait: {fileID: 21300000, guid: 51b853b0da16fba43a1b8062014c1d18, type: 3}
+    characterName: 'Adan '
+    sentenceContent: 'Hey, guys. I''m new employee, Adan. Glad to meet you all, and
+      I hope we would work well together .
+
+'
+    actionType: 0
+    sceneName: 
+    hasChoices: 0
+    choiceContent: []
+  - characterPortrait: {fileID: 21300000, guid: 51b853b0da16fba43a1b8062014c1d18, type: 3}
+    characterName: 'Adan '
+    sentenceContent: "Hello, Fink. Could you guide me through some work? I heard
+      that you are the best employee in the IT apartment. You must be able to help
+      me get familiar with the business quickly!\r"
+    actionType: 0
+    sceneName: 
+    hasChoices: 0
+    choiceContent: []
+  - characterPortrait: {fileID: 21300000, guid: d9c18443408871d44bac1fcdf6390725, type: 3}
+    characterName: Fink
+    sentenceContent: 'Yes, I''m happy to help.
 
 '
     actionType: 0
@@ -1956,7 +1852,7 @@ MonoBehaviour:
     characterName: 
     sentenceContent: 
     actionType: 4
-    sceneName: Email_Main 20
+    sceneName: Email_Main 30
     hasChoices: 0
     choiceContent: []
 --- !u!1 &1925175099

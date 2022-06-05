@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 831b9e2a96406a04dbe73219cede5852, type: 3}
+  m_Name: Email_1_5
+  m_EditorClassIdentifier: 
+  itemIndex: 5
+  senderIcon: {fileID: 21300000, guid: 5d73dac619966e34ea67ab801fb15c3d, type: 3}
+  EmailIconNotRead: {fileID: 21300000, guid: 0302d23a5fbac0b468e7fd5a23c619ae, type: 3}
+  EmailIconRead: {fileID: 21300000, guid: 493a9ec9b9f012f40b8d4618ff9a0a5e, type: 3}
+  senderName: PayPal
+  senderEmailAddress: <bounce@mail.paypal.com>
+  senderTime: 04/05/2022
+  relatedSceneName: Email_Scene 26
+  emailTitle: <b>Upcoming changes to our PayPal legal agreements </b>
+  emailContent: "Hi ,\r\n\r\nWe\u2019re making some changes to our legal agreements
+    that will apply to you.\r\n\r\nThere is no action needed from you today, but
+    if you would like to learn more, you can find details about these changes, when
+    they apply and what you can do if you want to decline the changes on our\_<a
+    herf>https://www.paypal.com/nz/home</a>. You can also view these changes by visiting
+    PayPal.com, clicking 'Legal' at the bottom of the page and then selecting 'Policy
+    Updates'.\r\n\r\nIf you have questions about any of these changes or your account,
+    please don\u2019t hesitate to\_<a herf>https://www.paypal.com/nz/home</a>\_with
+    us.\r\n\r\nThank you for being a PayPal customer.\r\n\r\nSincerely,\r\nPayPal"
+  hasRead: 0
+  emailType: 0
+  playerAns: 1

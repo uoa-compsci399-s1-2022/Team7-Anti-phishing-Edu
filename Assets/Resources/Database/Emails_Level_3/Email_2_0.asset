@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 831b9e2a96406a04dbe73219cede5852, type: 3}
+  m_Name: Email_2_0
+  m_EditorClassIdentifier: 
+  itemIndex: 0
+  senderIcon: {fileID: 21300000, guid: 5d73dac619966e34ea67ab801fb15c3d, type: 3}
+  EmailIconNotRead: {fileID: 21300000, guid: 0302d23a5fbac0b468e7fd5a23c619ae, type: 3}
+  EmailIconRead: {fileID: 21300000, guid: 493a9ec9b9f012f40b8d4618ff9a0a5e, type: 3}
+  senderName: ANZ Document Request
+  senderEmailAddress: ANZDocumentRequest@anz.com
+  senderTime: 04/04/2022 18:04
+  relatedSceneName: Email_Scene 31
+  emailTitle: <b>ANZ Statement Request </b>
+  emailContent: 'Hi,
+
+
+    Thank you for contacting ANZ. Please find attached your
+    requested customer information.
+
+
+    We have encrypted the document for your
+    safety. To view the document, open it and enter in the password you were provided
+    with over the phone. Do not enter your Internet Banking password.
+
+    You need
+    Adobe Reader to view PDF files. If you need to, you can download Adobe Reader
+    free of charge at <a herf>http://get.adobe.com/reader/</a>
+
+
+    If you require
+    any further information or assistance please call us on 0800 269 296, log on
+    to your Internet Banking and send us a secure Bank Mail or visit your local ANZ
+    branch.
+
+
+    Many thanks
+
+    ANZ
+
+
+
+    Note: Please do not reply to this email
+    as this address is not monitored.
+
+    This e-mail and any attachments to it
+    (the "Communication") is, unless otherwise stated, confidential, may contain
+    copyright material and is for the use only of the intended recipient. If you
+    receive the Communication in error, please notify the sender immediately by return
+    e-mail, delete the Communication and the return e-mail, and do not read, copy,
+    retransmit or otherwise deal with it. Any views expressed in the Communication
+    are those of the individual sender only, unless expressly stated to be those
+    of Australia and New Zealand Banking Group Limited ABN 11 005 357 522, or any
+    of its related entities including ANZ Bank New Zealand Limited (together "ANZ").
+    ANZ does not accept liability in connection with the integrity of or errors in
+    the Communication, computer virus, data corruption, interference or delay arising
+    from or in respect of the Communication.
+
+'
+  hasRead: 0
+  emailType: 1
+  playerAns: 1

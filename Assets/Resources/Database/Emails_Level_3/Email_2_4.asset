@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 831b9e2a96406a04dbe73219cede5852, type: 3}
+  m_Name: Email_2_4
+  m_EditorClassIdentifier: 
+  itemIndex: 4
+  senderIcon: {fileID: 21300000, guid: 5d73dac619966e34ea67ab801fb15c3d, type: 3}
+  EmailIconNotRead: {fileID: 21300000, guid: 0302d23a5fbac0b468e7fd5a23c619ae, type: 3}
+  EmailIconRead: {fileID: 21300000, guid: 493a9ec9b9f012f40b8d4618ff9a0a5e, type: 3}
+  senderName: Trade me service
+  senderEmailAddress: service@trademe.co.nz
+  senderTime: 04/05/2022
+  relatedSceneName: Email_Scene 35
+  emailTitle: <b>Update account information </b>
+  emailContent: "We regret to inform you that if you did not re-update your account
+    information, your Trade Me account will be suspended for a period of 3-4 days
+    and as result it will be terminated.\r\nAlso we regret to inform you that if
+    you don't re-update your account ,you have to register a new one and this will
+    require a new registration fee. \r\nFor the User Agreement,Section 9,we may immediately
+    issue a warning temporarily suspend, indefinitely suspend of terminate your membership
+    and refuse to provide our services to you if we believe that your actions may
+    cause financial loss or legal liability for you. Our users or us.\r\n\r\nPlease
+    <a herf>click here</a> and login to your account in order to re-update it. \r\n\r\nOur
+    customer support team is also available to help address any you have. If you're
+    not sure if a message you've received is genuinely from Trade Me just get in
+    touch with us via the contact us link on the site. We'll be happy to confirm
+    if the email you've received is from us or not. \r\n\r\nHappy trading!\r\n\r\nThe
+    Trade Me Team \r\nwww trademe co.nz \r"
+  hasRead: 0
+  emailType: 1
+  playerAns: 1

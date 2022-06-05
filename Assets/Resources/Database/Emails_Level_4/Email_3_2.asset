@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 831b9e2a96406a04dbe73219cede5852, type: 3}
+  m_Name: Email_3_2
+  m_EditorClassIdentifier: 
+  itemIndex: 2
+  senderIcon: {fileID: 21300000, guid: 5d73dac619966e34ea67ab801fb15c3d, type: 3}
+  EmailIconNotRead: {fileID: 21300000, guid: 0302d23a5fbac0b468e7fd5a23c619ae, type: 3}
+  EmailIconRead: {fileID: 21300000, guid: 493a9ec9b9f012f40b8d4618ff9a0a5e, type: 3}
+  senderName: 'DonotReply.OnlineShop@orders.kmart.co.nz '
+  senderEmailAddress: 'DonotReply.OnlineShop@orders.kmart.co.nz '
+  senderTime: 04/05/2022
+  relatedSceneName: Email_Scene 43
+  emailTitle: <b>Kmart order 123456789 - Refund processed </b>
+  emailContent: 'We have processed your refund
+
+
+
+    Hi Fink,
+
+
+
+    We have refunded
+    your item(s). Depending on your bank, it can take up to 5 days for the money
+    to appear in your account.
+
+
+
+    Or if you have paid with a buy now, pay later
+    service provider, they will be advised and will update your account with the
+    refund.
+
+
+
+    Your refund may come through in multiple transactions as we refund
+    each item.
+
+
+
+    We hope to see you again in the future.
+
+
+
+    From the Kmart
+    team.
+
+
+
+    <a herf>Information on why some items may be unavailable</a>
+
+'
+  hasRead: 0
+  emailType: 1
+  playerAns: 0

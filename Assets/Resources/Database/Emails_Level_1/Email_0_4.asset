@@ -25,4 +25,4 @@ MonoBehaviour:
     message is from your company's IT. \r\n\r\n<a herf>www.tessian.com</a>\r\n"
   hasRead: 0
   emailType: 1
-  playerAns: 0
+  playerAns: 1

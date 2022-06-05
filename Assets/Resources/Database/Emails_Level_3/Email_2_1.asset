@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 831b9e2a96406a04dbe73219cede5852, type: 3}
+  m_Name: Email_2_1
+  m_EditorClassIdentifier: 
+  itemIndex: 1
+  senderIcon: {fileID: 21300000, guid: 5d73dac619966e34ea67ab801fb15c3d, type: 3}
+  EmailIconNotRead: {fileID: 21300000, guid: 0302d23a5fbac0b468e7fd5a23c619ae, type: 3}
+  EmailIconRead: {fileID: 21300000, guid: 493a9ec9b9f012f40b8d4618ff9a0a5e, type: 3}
+  senderName: 'World Health Organisation '
+  senderEmailAddress: 'Sarah@who.com '
+  senderTime: 04/05/2022
+  relatedSceneName: Email_Scene 32
+  emailTitle: <b>Covid19 Latest Tips to stay Immune to Virus !  </b>
+  emailContent: "Good Morning .\r\n\nDue to the latest outbreak,our various researchers
+    have been able to come up with the diet =sand tips to keep us from being effected
+    with the virus.\r\nMany affected patients are already responding positively to
+    treatment after effecting the guidelines and tips .\r\nFind attached the documents
+    and safe as we this battle .\r\nDon't have pdf viewer ? not to worry, pdf viewer
+    is already embedded in attachment. \r\n\r\nBest Regards,\r\nDr ,Sarah Hopkins
+    \r\nMedia Relations Consultant \r\n+147059828\r"
+  hasRead: 0
+  emailType: 1
+  playerAns: 2

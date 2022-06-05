@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 831b9e2a96406a04dbe73219cede5852, type: 3}
+  m_Name: Email_3_4
+  m_EditorClassIdentifier: 
+  itemIndex: 4
+  senderIcon: {fileID: 21300000, guid: 5d73dac619966e34ea67ab801fb15c3d, type: 3}
+  EmailIconNotRead: {fileID: 21300000, guid: 0302d23a5fbac0b468e7fd5a23c619ae, type: 3}
+  EmailIconRead: {fileID: 21300000, guid: 493a9ec9b9f012f40b8d4618ff9a0a5e, type: 3}
+  senderName: Heart of the City
+  senderEmailAddress: 'info@hotcity.co.nz '
+  senderTime: 04/05/2022
+  relatedSceneName: Email_Scene 45
+  emailTitle: <b> A call to Finance Minister for urgent targeted financial support</b>
+  emailContent: "It is devastating to see good businesses closing and others close
+    to it. There is an urgent need for support, and whilst no one wants to have to
+    ask Government for a handout, we want businesses to be able to get through this
+    pandemic with their teams intact. Despite ongoing calls for targeted financial
+    assistance, there is nothing in place right now when people really need it.\r\n\r\nToday,
+    along with other central Auckland business associations - Karangahape Road, Newmarket,
+    Parnell, Ponsonby and Uptown - we are urging the Minister of Finance to put in
+    place targeted financial support, including wage subsidies and resurgence payments,
+    and access to low cost, easy to repay money. Collectively we cannot stand by
+    and watch more businesses fail and our neighbourhoods suffer.\r\nWhilst under
+    the Red light businesses can open, there is not a sustainable level of customers
+    and staffing is a challenge. The end of the month is looming and payables are
+    due. \r\nWe love our city centre and we are confident in its long term future,
+    but the cost of doing nothing now is too great. As well as the high cost on people\u2019s
+    lives and livelihoods, we run the risk of not having a vibrant central Auckland,
+    just when we want to showcase our city when the border reopens.\r\n\nYou can
+    read the letter <a herf>here</a>. \r\n\nKind Regards,\nHeart of the city\r\n"
+  hasRead: 0
+  emailType: 1
+  playerAns: 0

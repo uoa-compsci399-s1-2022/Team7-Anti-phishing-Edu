@@ -74,4 +74,103 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Official Scenes/Level 2/Email_Scene 25.unity
     guid: 3cfb940e156bb134293c7363c06561a6
+  - enabled: 1
+    path: Assets/Scenes/Official Scenes/Level 3/Dialogue 3.unity
+    guid: 201dede007a33934fbf3458908160af6
+  - enabled: 1
+    path: Assets/Scenes/Official Scenes/Level 3/Email_Inbox 3.unity
+    guid: 2d68bc767e1e83a4d982f7d92e7553fd
+  - enabled: 1
+    path: Assets/Scenes/Official Scenes/Level 3/Email_KnowledgeCenter 3.unity
+    guid: 36085fd8a5d587142ab7b7efc4029db2
+  - enabled: 1
+    path: Assets/Scenes/Official Scenes/Level 3/Email_Main 30.unity
+    guid: 7d8044dfc3b00d6449449e9d43649c08
+  - enabled: 1
+    path: Assets/Scenes/Official Scenes/Level 3/Email_Scene 31.unity
+    guid: 0af316b306410d94c906613a833743a0
+  - enabled: 1
+    path: Assets/Scenes/Official Scenes/Level 3/Email_Scene 32.unity
+    guid: 5d21ee93d4c19f645a792548c0175d35
+  - enabled: 1
+    path: Assets/Scenes/Official Scenes/Level 3/Email_Scene 33.unity
+    guid: ab1de26c8130b614aab41c9d2d019c59
+  - enabled: 1
+    path: Assets/Scenes/Official Scenes/Level 3/Email_Scene 34.unity
+    guid: 39b62656d152c6b4780ff516ff38a1a7
+  - enabled: 1
+    path: Assets/Scenes/Official Scenes/Level 3/Email_Scene 35.unity
+    guid: 1b620e3963f9a8248978e1672469f064
+  - enabled: 1
+    path: Assets/Scenes/Official Scenes/Level 4/Dialogue 4.unity
+    guid: b1f8bcc38e076fc4aa52805de62d7ed0
+  - enabled: 1
+    path: Assets/Scenes/Official Scenes/Level 4/Email_Inbox 4.unity
+    guid: 95ec0c5cbeffe9849bfb498bc4d0c698
+  - enabled: 1
+    path: Assets/Scenes/Official Scenes/Level 4/Email_KnowledgeCenter 4.unity
+    guid: 68e2774d73657134e92b23a8cab99fc8
+  - enabled: 1
+    path: Assets/Scenes/Official Scenes/Level 4/Email_Main 40.unity
+    guid: 82f713a8d04a2ae4bbbb06e79aec2b93
+  - enabled: 1
+    path: Assets/Scenes/Official Scenes/Level 4/Email_Scene 41.unity
+    guid: c9bc752732fca18489a5dc6f6215764f
+  - enabled: 1
+    path: Assets/Scenes/Official Scenes/Level 4/Email_Scene 42.unity
+    guid: 5b8de7629d2ebf7438adb08467b63a75
+  - enabled: 1
+    path: Assets/Scenes/Official Scenes/Level 4/Email_Scene 43.unity
+    guid: cee03f20f5cdff140bc3b11df6cdd798
+  - enabled: 1
+    path: Assets/Scenes/Official Scenes/Level 4/Email_Scene 44.unity
+    guid: 29ecfb25fda408540828488743a923c1
+  - enabled: 1
+    path: Assets/Scenes/Official Scenes/Level 4/Email_Scene 45.unity
+    guid: acf118536c45cd94e8d06ca4e4b50f44
+  - enabled: 1
+    path: Assets/Scenes/Official Scenes/Level 5/Dialogue 5.unity
+    guid: 6f100ebf567e9ed49ae54b02a0380f13
+  - enabled: 1
+    path: Assets/Scenes/Official Scenes/Level 5/Email_Inbox 5.unity
+    guid: c5059df6cbeb06349a723ef0e470dffb
+  - enabled: 1
+    path: Assets/Scenes/Official Scenes/Level 5/Email_KnowledgeCenter 5.unity
+    guid: 6fa454d459fa93d438cab6c841371673
+  - enabled: 1
+    path: Assets/Scenes/Official Scenes/Level 5/Email_Main 50.unity
+    guid: 604595730bdeba746a3c1c9370de0028
+  - enabled: 1
+    path: Assets/Scenes/Official Scenes/Level 5/Email_Scene 51.unity
+    guid: da32a8e626bd9804e883be3f8c48eaa0
+  - enabled: 1
+    path: Assets/Scenes/Official Scenes/Level 5/Email_Scene 52.unity
+    guid: b86dde0a39f39ba42b09e05cd2e8a9e8
+  - enabled: 1
+    path: Assets/Scenes/Official Scenes/Level 5/Email_Scene 53.unity
+    guid: e5af48a56b9da054e9ee4ed1ef9d3d96
+  - enabled: 1
+    path: Assets/Scenes/Official Scenes/Level 5/Email_Scene 54.unity
+    guid: 666bb998b129b64459edb2840440b26e
+  - enabled: 1
+    path: Assets/Scenes/Official Scenes/Level 5/Email_Scene 55.unity
+    guid: e49eef2e95415c44a84bab9edef67f04
+  - enabled: 1
+    path: Assets/Scenes/Official Scenes/Level 1/Email_Scene 16.unity
+    guid: 8b2ec99b36e33b4438db72eb1dd834f2
+  - enabled: 1
+    path: Assets/Scenes/Official Scenes/Level 1/Email_Scene 17.unity
+    guid: 37d3f078de380fe428ef54c45664889b
+  - enabled: 1
+    path: Assets/Scenes/Official Scenes/Level 2/Email_Scene 26.unity
+    guid: 97386998f8027774b9d1b9833d8dd27a
+  - enabled: 1
+    path: Assets/Scenes/Official Scenes/Level 2/Email_Scene 27.unity
+    guid: 21f22c4299a2444418abc2a0915ff4a5
+  - enabled: 1
+    path: Assets/Scenes/Official Scenes/Level 3/Email_Scene 36.unity
+    guid: 464ed9e8defdcf94bb6f436145988b3d
+  - enabled: 1
+    path: Assets/Scenes/Official Scenes/Level 4/Email_Scene 46.unity
+    guid: efc0fd05eaa37144dba97e1f4c781ff5
   m_configObjects: {}

@@ -24,6 +24,9 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] public List<EmailScriptableObject> level_1_data;
     [SerializeField] public List<EmailScriptableObject> level_2_data;
+    [SerializeField] public List<EmailScriptableObject> level_3_data;
+    [SerializeField] public List<EmailScriptableObject> level_4_data;
+    [SerializeField] public List<EmailScriptableObject> level_5_data;
 
     private static GameManager gameManagerInstance;
     
@@ -68,6 +71,18 @@ public class GameManager : MonoBehaviour
 
             case 2:
                 currentData = level_2_data;
+                break;
+
+            case 3:
+                currentData = level_3_data;
+                break;
+
+            case 4:
+                currentData = level_4_data;
+                break;
+
+            case 5:
+                currentData = level_5_data;
                 break;
         }
 
