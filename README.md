@@ -61,9 +61,14 @@ Tutorials we have been used when developing our game:
 ## Our team members:
 
 **Ruiqi Zhang** - Technology leader Frontend Backend
+
 **Leyang Liu** - Project Manager UI/UX Design
+
 **Vicky Wang** - Data research screen writer
+
 **Rainbow Ou** - Data research screen writer
+
 **Sherry Liu** - Frontend Tester
+
 **Tuanyu Zhou** - Data research Tester
 
