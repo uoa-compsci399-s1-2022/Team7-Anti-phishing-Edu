@@ -222,6 +222,8 @@ MonoBehaviour:
   returnButton: {fileID: 1135033145}
   videoPanel: {fileID: 2133853482}
   tips: {fileID: 940588306}
+  fileName: Video_1.mp4
+  videoPlayer: {fileID: 1986816062}
 --- !u!4 &235056012
 Transform:
   m_ObjectHideFlags: 0
@@ -230,7 +232,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 235056010}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1335.4337, y: 669.1569, z: -1416.0212}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -915,6 +917,9 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 63747def3d21c634897225ca8db5c084, type: 2}
   - {fileID: 11400000, guid: a2434ec6ee1e32c44a397cb1728a894b, type: 2}
   level_2_data: []
+  level_3_data: []
+  level_4_data: []
+  level_5_data: []
 --- !u!4 &1150176531
 Transform:
   m_ObjectHideFlags: 0
@@ -1564,7 +1569,7 @@ VideoPlayer:
   - {fileID: 0}
   m_DirectAudioVolumes:
   - 1
-  m_Url: "file://E:/CS399/CS399-Project/Assets/Resources/Video/\u5173\u53611\u4ECB\u7ECDphishing.mp4"
+  m_Url: 
   m_EnabledAudioTracks: 01
   m_DirectAudioMutes: 00
   m_ControlledAudioTrackCount: 1

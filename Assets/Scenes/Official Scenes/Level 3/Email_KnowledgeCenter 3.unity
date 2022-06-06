@@ -222,6 +222,8 @@ MonoBehaviour:
   returnButton: {fileID: 1135033145}
   videoPanel: {fileID: 2133853482}
   tips: {fileID: 940588306}
+  fileName: Video_3.mp4
+  videoPlayer: {fileID: 1986816062}
 --- !u!4 &235056012
 Transform:
   m_ObjectHideFlags: 0
@@ -997,6 +999,9 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 63747def3d21c634897225ca8db5c084, type: 2}
   - {fileID: 11400000, guid: a2434ec6ee1e32c44a397cb1728a894b, type: 2}
   level_2_data: []
+  level_3_data: []
+  level_4_data: []
+  level_5_data: []
 --- !u!4 &1150176531
 Transform:
   m_ObjectHideFlags: 0
@@ -1556,7 +1561,7 @@ VideoPlayer:
   m_TargetMaterialProperty: _MainTex
   m_RenderMode: 2
   m_AspectRatio: 2
-  m_DataSource: 0
+  m_DataSource: 1
   m_PlaybackSpeed: 1
   m_AudioOutputMode: 2
   m_TargetAudioSources:
