@@ -1,6 +1,7 @@
 # Anti-phishing Edu.
 
 ![Game Logo](https://github.com/uoa-compsci399-s1-2022/Team7-Anti-phishing-Edu/blob/main/Assets/Resources/UI/logo01.png)
+
 A serious game to teach people to thwart phishing attacks.
 
 ## Short Description
