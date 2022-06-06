@@ -44,7 +44,7 @@ We offer two ways to play our game, in case one of other failed to load:
 
 Link to our build repo: https://github.com/kanericky/CS399-Deloy-Build. Since we need to publish our game on Github Page, we put the build file on our full-stack programmer Ruiqi Zhang's personal repository.
 
-## Technology Used
+## Future plan
 
 First, we plan to expand the question bank to effectively improve the challenge of the game and increase the replay rate. Based on the modules we developed, even those who do not understand the code can edit and increase the content of the question bank.
 
